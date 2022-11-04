@@ -7,7 +7,7 @@ import Theme from "../../components/Theme";
 import { useRouter } from "next/router";
 import articles from "../../components/db/articles";
 
-export default function Home() {
+export default function ArticlesPage() {
   const router = useRouter();
   const { id } = router.query;
 
@@ -33,6 +33,12 @@ export default function Home() {
         <br />
         <p className={styles.articleText}>{article["content"]}</p>
       </main>
+      // Back button
+      <Link href="/articles">
+        <a className={styles.backButton}>
+          <i className="fas fa-arrow-left"></i>
+        </a>
+      </Link>
     </div>
   );
 }
