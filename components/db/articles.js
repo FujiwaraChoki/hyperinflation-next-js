@@ -5,12 +5,12 @@ export default [
     id: "hyperinflation-1923",
     title: "Die Hyperinflation von 1923",
     content:
-      "Die Hyperinflation von 1923 ist die bekannteste Hyperinflation. Sie begann am 20. Juni 1923 und dauerte bis zum 13. November 1923.",
+      "Eine Spätfolge des Ersten Weltkriegs war die Inflation von 1923, eine Blase, die schließlich fünf Jahre nach der Kapitulation platzte. Krieg kostet Geld, viel Geld. Geld, das ein Staat für Waffen, Munition, Soldaten, Lebensmittel, Transport und Logistik ausgeben muss. Und da die ganze Wirtschaft Deutschlands auf den Krieg basierte (Kriegswirtschaft), war es ein sehr übler Schlag als Deutschland den wichtigsten Teil der Wirtschaft verloren hatte.",
   },
   {
     id: "weimarer-republik",
     title: "Die Weimarer Republik",
     content:
-      "Die Weimarer Republik war eine Demokratie, die von 1919 bis 1933 in Deutschland bestand.",
+      "Die 'Weimarer Republik' ist eine Bezeichnung für Deutschland von 1918 bis 1933. Das war nach dem Ersten Weltkrieg. Deutschland hatte damals keinen Kaiser oder König mehr und war somit eine Republik. Statt des deutschen Kaisers gab es nun einen Reichspräsidenten als Staatsoberhaupt.",
   },
 ];
