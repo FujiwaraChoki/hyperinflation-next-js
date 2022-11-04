@@ -29,9 +29,9 @@ export default function Home() {
       <Nav></Nav>
       <Theme></Theme>
       <main className={styles.main}>
-        <h1 className={styles.title}>{article.title}</h1>
+        <h1 className={styles.title}>{article["title"]}</h1>
         <br />
-        <p className={styles.articleText}>{article.content}</p>
+        <p className={styles.articleText}>{article["content"]}</p>
       </main>
     </div>
   );
