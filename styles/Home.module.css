@@ -1,15 +1,12 @@
-.container {
-  padding: 0 2rem;
-}
-
 .main {
-  min-height: 100vh;
+  min-height: 95%;
   padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .footer {
@@ -126,4 +123,39 @@
   .logo img {
     filter: invert(1);
   }
+}
+
+.themeButton {
+  float: right;
+  top: 0;
+  right: 0;
+  margin: 1rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background: #fafafa;
+  color: #000;
+  font-size: 1rem;
+  cursor: pointer;
+  font-size: 30px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.themeButton:hover,
+.themeButton:active {
+  background: #000000;
+  color: #fff;
+}
+
+.themeButton:focus {
+  background: #2759ff;
+  color: #fff;
+}
+
+.articleText {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  width: 60%;
 }

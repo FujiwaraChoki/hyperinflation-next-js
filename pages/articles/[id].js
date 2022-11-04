@@ -4,13 +4,15 @@ import Link from "next/link";
 import styles from "../../styles/Home.module.css";
 import Nav from "../../components/Nav";
 import Theme from "../../components/Theme";
+import { useRouter } from "next/router";
 import articles from "../../components/db/articles";
 
 export default function Home() {
-  // How to split a string and replace the last 30 characters with "..."
-  const truncate = (str) => {
-    return str.length > 40 ? str.substring(0, 30) + "..." : str;
-  };
+  const router = useRouter();
+  const { id } = router.query;
+
+  const article = articles.find((article) => article.id === id);
+  console.log(article);
 
   return (
     <div>
@@ -27,20 +29,9 @@ export default function Home() {
       <Nav></Nav>
       <Theme></Theme>
       <main className={styles.main}>
-        <h1 className={styles.title}>Alle Artikel</h1>
-
-        <div className={styles.grid}>
-          {articles.map((article) => (
-            <Link
-              href={`/articles/${article.id}`}
-              key={article["id"]}
-              className={styles["card"]}
-            >
-              <h3>{article.title}</h3>
-              <p>{truncate(article["content"])}</p>
-            </Link>
-          ))}
-        </div>
+        <h1 className={styles.title}>{article.title}</h1>
+        <br />
+        <p className={styles.articleText}>{article.content}</p>
       </main>
     </div>
   );
