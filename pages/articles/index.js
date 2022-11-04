@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
-import Nav from '../components/Nav'
+import styles from '../../styles/Home.module.css'
+import Nav from '../../components/Nav'
 
 export default function Home() {
   return (
@@ -14,8 +14,19 @@ export default function Home() {
       <Nav></Nav>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Die Hyperinflation von 1923
+          Alle Artikel:
         </h1>
+
+        <div className={styles.grid}>
+            <Link href="/articles/1923" className={styles.card}>
+                    <h2>1923 &rarr;</h2>
+                    <p>Die Hyperinflation von 1923</p>
+            </Link>
+            <Link href="/articles/1924"className={styles.card}>
+                    <h2>1924 &rarr;</h2>
+                    <p>Die Hyperinflation von 1924</p>
+            </Link>
+        </div>
       </main>
     </div>
   )
