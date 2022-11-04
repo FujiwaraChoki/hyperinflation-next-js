@@ -28,15 +28,14 @@ export default function Home() {
       <Theme></Theme>
       <main className={styles.main}>
         <h1 className={styles.title}>Alle Artikel</h1>
-
         <div className={styles.grid}>
           {articles.map((article) => (
             <Link
-              href={`/articles/${article.id}`}
+              href={`/articles/${article["id"]}`}
               key={article["id"]}
               className={styles["card"]}
             >
-              <h3>{article.title}</h3>
+              <h3>{article["title"]}</h3>
               <p>{truncate(article["content"])}</p>
             </Link>
           ))}

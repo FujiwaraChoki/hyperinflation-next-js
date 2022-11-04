@@ -22,6 +22,16 @@ export default function Home() {
       <Theme></Theme>
       <main className={styles.main}>
         <h1 className={styles.title}>Die Hyperinflation von 1923</h1>
+        <br />
+        <p className={styles.articleText}>
+          Lernen Sie die Geschichte der Hyperinflation von 1923 kennen. Wie kam
+          es dazu? Was waren die Ursachen? Wie hat sich die Inflation auf die
+          Menschen ausgewirkt?
+        </p>
+        <br />
+        <Link href="/articles" className={styles.button}>
+          Zu den Artikeln
+        </Link>
       </main>
     </div>
   );

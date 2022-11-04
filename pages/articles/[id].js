@@ -1,18 +1,21 @@
 import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
 import styles from "../../styles/Home.module.css";
 import Nav from "../../components/Nav";
 import Theme from "../../components/Theme";
 import { useRouter } from "next/router";
+import { useEffect } from "react";
 import articles from "../../components/db/articles";
 
-export default function ArticlesPage() {
-  const router = useRouter();
-  const { id } = router.query;
+export default function Article() {
+  let info = articles.find((article) => article.id === useRouter().query.id);
+  let title = "Etwas ist schief gelaufen...";
+  let content = "Bitte kontaktieren Sie den Administrator.";
 
-  const article = articles.find((article) => article.id === id);
-  console.log(article);
+  if (info) {
+    title = info.title;
+    content = info.content;
+  }
 
   return (
     <div>
@@ -29,15 +32,12 @@ export default function ArticlesPage() {
       <Nav></Nav>
       <Theme></Theme>
       <main className={styles.main}>
-        <h1 className={styles.title}>{article["title"]}</h1>
+        <h1 className={styles.title}>{title}</h1>
         <br />
-        <p className={styles.articleText}>{article["content"]}</p>
+        <p className={styles.articleText}>{content}</p>
       </main>
-      // Back button
-      <Link href="/articles">
-        <a className={styles.backButton}>
-          <i className="fas fa-arrow-left"></i>
-        </a>
+      <Link href="/articles" className={styles.backButton}>
+        <i className="fas fa-arrow-left"></i>
       </Link>
     </div>
   );
