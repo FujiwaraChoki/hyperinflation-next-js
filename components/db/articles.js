@@ -13,4 +13,10 @@ export default [
     content:
       "Die 'Weimarer Republik' ist eine Bezeichnung für Deutschland von 1918 bis 1933. Das war nach dem Ersten Weltkrieg. Deutschland hatte damals keinen Kaiser oder König mehr und war somit eine Republik. Statt des deutschen Kaisers gab es nun einen Reichspräsidenten als Staatsoberhaupt.",
   },
+  {
+    id: "deutsche-mark",
+    title: "Die Deutsche Mark",
+    content:
+      "Die Deutsche Mark war die Währung der Bundesrepublik Deutschland von 1948 bis 2002. Sie wurde am 20. Juni 1948 eingeführt und war die erste Währung, die in der Geschichte Deutschlands als Staatsoberhaupt fungierte. Die Deutsche Mark war eine stabile Währung, die sich nicht so schnell veränderte wie die Mark vorher. Die Deutsche Mark war eine stabile Währung, die sich nicht so schnell veränderte wie die Mark vorher.",
+  }
 ];
