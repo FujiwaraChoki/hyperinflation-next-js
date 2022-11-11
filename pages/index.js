@@ -4,8 +4,19 @@ import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import Nav from "../components/Nav";
 import Theme from "../components/Theme";
+import Lottie from "react-lottie";
+import animationData from '../public/moneyAnimation.json';
 
 export default function Home() {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
   return (
     <div>
       <Head>
@@ -29,6 +40,7 @@ export default function Home() {
           Menschen ausgewirkt?
         </p>
         <br />
+        <Lottie options={defaultOptions} height={200} width={200} style={{ marginTop: 100}}/>
         <Link href="/articles" className={styles.button}>
           Zu den Artikeln
         </Link>

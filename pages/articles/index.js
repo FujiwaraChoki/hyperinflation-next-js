@@ -41,6 +41,9 @@ export default function Home() {
           ))}
         </div>
       </main>
+      <Link href="/" className={styles.backButton}>
+        <i className="fas fa-arrow-left"></i>
+      </Link>
     </div>
   );
 }
