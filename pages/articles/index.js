@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
 import styles from "../../styles/Home.module.css";
 import Nav from "../../components/Nav";
@@ -33,7 +32,7 @@ export default function Home() {
             <Link
               href={`/articles/${article["id"]}`}
               key={article["id"]}
-              className={styles["card"]}
+              className={styles.card}
             >
               <h3>{article["title"]}</h3>
               <p>{truncate(article["content"])}</p>
