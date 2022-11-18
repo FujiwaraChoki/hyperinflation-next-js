@@ -42,9 +42,10 @@
   font-size: 4rem;
 }
 
-.title,
-.description {
+.title {
   text-align: center;
+  font-size: 3rem;
+  margin-bottom: 20px;
 }
 
 .description {
@@ -157,7 +158,8 @@
   line-height: 1.5;
   margin: 0;
   padding: 0;
-  width: 40%;
+  width: 60%;
+  margin-right: 20px;
 }
 
 .backButton {
@@ -175,14 +177,12 @@
   transition: background 0.15s ease, color 0.15s ease;
 }
 
-/*Animation when hovering over backButton*/
 .backButton:hover,
 .backButton:active {
   color: #fff;
   background: #2759ff;
 }
 
-/*Animation when tabbing over backButton*/
 .backButton:focus {
   background: #2759ff;
   color: #fff;
@@ -201,7 +201,6 @@
   transition: background 0.15s ease, color 0.15s ease;
 }
 
-/*Animation when hovering over button*/
 .button:hover,
 .button:active {
   background: #000000;

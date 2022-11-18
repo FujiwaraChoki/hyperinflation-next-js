@@ -6,6 +6,7 @@ import Nav from "../../components/Nav";
 import Theme from "../../components/Theme";
 import { useRouter } from "next/router";
 import articles from "../../components/db/articles";
+import { useEffect } from "react";
 
 export default function Article() {
   let info = articles.find((article) => article.id === useRouter().query.id);
@@ -38,7 +39,7 @@ export default function Article() {
         <br />
         <div className={styles.contentWrapper}>
           <p className={styles.articleText}>{content}</p>
-          <Image src={image} width="400" height="300" className={styles.image}/>
+          <Image src={image} width="400" height="300" alt={image} className={styles.image}/>
         </div>
       </main>
       <Link href="/articles" className={styles.backButton}>
