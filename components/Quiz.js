@@ -29,21 +29,21 @@ export default function Quiz() {
       ],
     },
     {
-      questionText: "Wie viele Milliarden Mark kostete ein Liter Milch 1923?",
+      questionText: "Wann spricht man von einer Hyperinflation?",
       answerOptions: [
-        { answerText: "1", isCorrect: false },
-        { answerText: "100", isCorrect: false },
-        { answerText: "1000", isCorrect: true },
-        { answerText: "10000", isCorrect: false },
+        { answerText: "Bei 30% Inflation monatlich", isCorrect: false },
+        { answerText: "Bei 40% Inflation monatlich", isCorrect: false },
+        { answerText: "Bei 60% Inflation monatlich", isCorrect: false },
+        { answerText: "Bei 50% Inflation monatlich", isCorrect: true },
       ],
     },
     {
-      questionText: "Wie viele Milliarden Mark kostete ein Liter Benzin 1923?",
+      questionText: "Wer waren die Verlierer der Hyperinflation?",
       answerOptions: [
-        { answerText: "1", isCorrect: false },
-        { answerText: "100", isCorrect: false },
-        { answerText: "1000", isCorrect: true },
-        { answerText: "10000", isCorrect: false },
+        { answerText: "Die Mittelschicht (die Normalen)", isCorrect: true },
+        { answerText: "Die Oberschicht (die Reichen)", isCorrect: false },
+        { answerText: "Die Unterschicht (die Armen)", isCorrect: false },
+        { answerText: "Jeder", isCorrect: false },
       ],
     },
   ];
@@ -93,6 +93,12 @@ export default function Quiz() {
           {showScore ? (
             <div className={styles.scoresection}>
               Du hast {score} von {questions.length} Fragen richtig beantwortet.
+              <button
+                className={styles.button}
+                onClick={() => window.location.reload()}
+              >
+                Nochmal versuchen
+              </button>
             </div>
           ) : (
             <>

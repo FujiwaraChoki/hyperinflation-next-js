@@ -2,28 +2,6 @@ import { useEffect } from "react";
 import styles from "../styles/Home.module.css";
 
 const Theme = () => {
-  useEffect(() => {
-    const answerButtons = document.querySelectorAll(
-      ".Home_answerbutton__dCgmJ"
-    );
-    answerButtons.forEach((answerButton) => {
-      answerButton.style.borderColor = "#ffffff";
-      answerButton.style.backgroundColor = "#000000";
-      answerButton.style.color = "#ffffff";
-      // When user hovers over answer button, change color for 1 second
-      answerButton.addEventListener("mouseover", () => {
-        answerButton.style.borderColor = "#ffffff";
-        answerButton.style.backgroundColor = "#ffffff";
-        answerButton.style.color = "#000000";
-        setTimeout(() => {
-          answerButton.style.borderColor = "#ffffff";
-          answerButton.style.backgroundColor = "#000000";
-          answerButton.style.color = "#ffffff";
-        }, 200);
-      });
-    });
-  });
-
   const enableDarkTheme = () => {
     document.body.style.background = "#000000";
     document.body.style.color = "#ffffff";
