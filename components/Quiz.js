@@ -46,6 +46,24 @@ export default function Quiz() {
         { answerText: "Jeder", isCorrect: false },
       ],
     },
+    {
+      questionText: "Wann  begann der erste Weltkrieg?",
+      answerOptions: [
+        { answerText: "1914", isCorrect: true },
+        { answerText: "1915", isCorrect: false },
+        { answerText: "1916", isCorrect: false },
+        { answerText: "1917", isCorrect: false },
+      ],
+    },
+    {
+      questionText: "Was war die stärkste Hyperinflation?",
+      answerOptions: [
+        { answerText: "Deutschland 1923", isCorrect: false },
+        { answerText: "Argentinien 1989", isCorrect: false },
+        { answerText: "Zimbabwe 2008", isCorrect: true },
+        { answerText: "Venezuela 2018", isCorrect: false },
+      ],
+    },
   ];
 
   const [currentQuestion, setCurrentQuestion] = useState(0);
