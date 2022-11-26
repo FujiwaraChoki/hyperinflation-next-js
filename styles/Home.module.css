@@ -49,18 +49,8 @@
 }
 
 .description {
-  margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .grid {
@@ -207,14 +197,6 @@
   color: #fff;
 }
 
-.emailDiv {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 1rem;
-}
-
 .contentWrapper {
   display: flex;
   justify-content: space-between;
@@ -222,4 +204,46 @@
   width: 50%;
   height: 100%;
   margin-top: 40px;
+}
+
+.scoresection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.questionsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.questioncount {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.answersection {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.answerbutton {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.answerbutton:hover {
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
 }

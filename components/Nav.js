@@ -13,8 +13,9 @@ const Nav = () => {
         icon1={"fas fa-home"}
         url2={"/articles/"}
         icon2={"fas fa-newspaper"}
-        url3={"/contact"}
-        icon3={"fas fa-envelope"}
+        url3={"/quiz/"}
+        // Set next icon to question mark (quiz)
+        icon3={"fas fa-question"}
         backgroundColor={"#151c28"}
         degree={`to bottom`}
         gradcolor1={"#a595e9"}
