@@ -112,7 +112,18 @@ export default [
     id_num: 8,
     id: "vergleich-zu-anderen-hyperinflationen",
     title: "Vergleich zu anderen Hyperinflationen",
-    image: "https://static.dw.com/image/61137417_303.jpg",
+    image: [
+      {
+        src: "https://static.dw.com/image/61137417_303.jpg",
+        height: 300,
+        width: 400,
+      },
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/10_Reichsmark_1924-10-11.jpg/1024px-10_Reichsmark_1924-10-11.jpg",
+        height: 300,
+        width: 400,
+      },
+    ],
     content: `
     Jetzt kommt noch ein Vergleich zwischen der Hyperinflation, die 1923 in Deutschland stattgefunden hat, und den anderen bekannten Inflationen.
     Mit dem Ende des Zweiten Weltkriegs wurde auch die deutsche Armee aus Ungarn zurückgezogen. Das Land wurde jedoch nicht selbstständig, sondern wurde von der Roten Armee unter Führung der Übergangsregierung besetzt. Allerdings kamen die Soldaten aus Russland nicht ausschliesslich als Freude. Sie vergewaltigten Frauen und deportierten ungarische Männer nach Russland. Hinzu kam die schwere finanzielle Belastung durch die Kriege, die etwa 40 Prozent des Volksvermögens ausmachte. Auch der wirtschaftliche Wiederaufbau gestaltete sich schwierig, da viele Brücken über die Donau und die Theiss zerstört waren und die Landwirtschaft während des Krieges etwa 50 % ihrer Maschinen und ihres Viehbestands verloren hatte. Zu diesem Zeitpunkt begann die Inflation in Ungarn, da Waren und Rohstoffe knapp wurden und die Preise weiter stiegen.
