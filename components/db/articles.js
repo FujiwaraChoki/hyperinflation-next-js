@@ -2,6 +2,7 @@
 
 export default [
   {
+    id_num: 1,
     id: "was-ist-eine-inflation",
     title: "Was ist eine Inflation?",
     image: "https://i.imgur.com/1WT8Yjb.jpeg",
@@ -18,6 +19,7 @@ export default [
     Zurückgestaute Inflation: Der Staat versucht eine Inflation zu verhindern oder aufzuschieben. Er macht dies indem er einen Höchstpreis für die Produkte oder Dienstleistungen festlegt.`,
   },
   {
+    id_num: 2,
     id: "der-erste-weltkrieg",
     title: "Der erste Weltkrieg",
     image: "https://i.imgur.com/poa2YdH.jpeg",
@@ -32,6 +34,7 @@ export default [
     nahezu unmöglich machte.`,
   },
   {
+    id_num: 3,
     id: "die-hyperinflation-von-1923",
     title: "Die Hyperinflation von 1923",
     image: "https://i.imgur.com/Oo7bf9g.jpeg",
@@ -54,6 +57,7 @@ export default [
     Der Dawes Plan, den dieser Mann entwickelte, sollte nun für die kommenden Jahre wichtig werden, für die Reparationsleistungen und überhaupt für die wirtschaftliche Belastung Deutschlands. Je nachdem sollten auch die Kinder damals kein gutes Leben geführt haben.`,
   },
   {
+    id_num: 4,
     id: "wie-loest-man-eine-hyperinflation",
     title: "Wie löst man eine Hyperinflation?",
     image: "https://i.imgur.com/XRgbH24.png",
@@ -68,6 +72,7 @@ export default [
     Und dass ist auch was die meisten getan haben. Glücklicherweise hat das auch funktioniert, denn wenn nicht, würde Deutschland nicht den heutigen Status haben. Aber wie hat der Staat das gemacht?`,
   },
   {
+    id_num: 5,
     id: "die-weimarer-republik",
     title: "Die Weimarer Republik",
     image:
@@ -82,6 +87,7 @@ export default [
     `,
   },
   {
+    id_num: 6,
     id: "deutsche-mark",
     title: "Deutsche Mark",
     image:
@@ -92,6 +98,7 @@ export default [
     Eine weitere Besonderheit der Deutsch Mark war ihre Herkunft Sperre. Dies bedeutete, dass das Geld, welches in der alten Reichsmark gebunkert worden war, nicht mehr frei verfügbar war. Stattdessen musste es erst umgetauscht werden - was für viele Bürger einen erheblichen finanziellen Verlust bedeutete. Allerdings sorgte dies für weiterhin hohes Vertrauen in die neue Währung, da ansonsten befürchtet worden wäre, dass das Geld vom Staat beschlagnahmt wird.`,
   },
   {
+    id_num: 7,
     id: "reichsmark",
     title: "Reichsmark",
     image:
@@ -102,6 +109,7 @@ export default [
     `,
   },
   {
+    id_num: 8,
     id: "vergleich-zu-anderen-hyperinflationen",
     title: "Vergleich zu anderen Hyperinflationen",
     image: "https://static.dw.com/image/61137417_303.jpg",
@@ -112,6 +120,7 @@ export default [
     Um die Inflation in Ungarn zu kontrollieren, wurde am 1. August 1946 der ungarische Forint eingeführt. Der Wechselkurs wurde zentral festgelegt und ein Forint entsprach etwa 200 Millionen Adopengö (200.000.000.000 Pengö). Die alte Währung konnte bis September 1946 umgetauscht werden. Die Einführung des Forint und die gleichzeitige Abwertung der Währung setzten der Hyperinflation in Ungarn ein Ende. Der Staat könnte wieder eine normale Wirtschaftspolitik betreiben und die Entwicklung der Landwirtschaft fördern. Nach und nach konnten auch die Menschen in Ungarn wieder Vermögen und einen angemessenen Lebensstandard aufbauen.`,
   },
   {
+    id_num: 9,
     id: "inflation-2022",
     title: "Inflation 2022",
     image:
@@ -143,6 +152,7 @@ export default [
     Da wir nun unsere Energie selber oder aus anderen Ländern beziehen müssen, ist die ganze Energie viel teurer geworden. Wegen des derzeitigen Krieges und der laufenden Corona-Pandemie sind die Preise jedes Produktes stark gestiegen, die Menschen verdienen aber nicht mehr Geld als zuvor. Das hat eine enorme Auswirkung auf die gesamtwirtschaftliche Lage.`,
   },
   {
+    id_num: 10,
     id: "deflation",
     title: "Deflation",
     image: "https://i.imgur.com/hkY6gyd.jpg",

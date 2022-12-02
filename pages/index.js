@@ -6,8 +6,15 @@ import Nav from "../components/Nav";
 import Theme from "../components/Theme";
 import Lottie from "react-lottie";
 import animationData from '../public/moneyAnimation.json';
+import { useEffect } from "react";
 
 export default function Home() {
+
+  useEffect(() => {
+    const body = document.querySelector("body");
+    body.style.overflowY = "hidden";
+  });
+
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -18,7 +25,7 @@ export default function Home() {
   };
 
   return (
-    <div>
+    <>
       <Head>
         <title>Hyperinflation</title>
         <link
@@ -40,11 +47,11 @@ export default function Home() {
           Menschen ausgewirkt?
         </p>
         <br />
-        <Lottie options={defaultOptions} height={200} width={200} style={{ marginTop: 100}}/>
+        <Lottie options={defaultOptions} height={200} width={200} style={{ marginTop: 30}}/>
         <Link href="/articles" className={styles.button}>
           Zu den Artikeln
         </Link>
       </main>
-    </div>
+    </>
   );
 }

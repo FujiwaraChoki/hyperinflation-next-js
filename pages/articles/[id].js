@@ -1,20 +1,21 @@
 import Head from "next/head";
-import Link from "next/link";
 import Image from "next/image";
 import styles from "../../styles/Home.module.css";
 import Nav from "../../components/Nav";
 import Theme from "../../components/Theme";
 import { useRouter } from "next/router";
 import articles from "../../components/db/articles";
-import { useEffect } from "react";
+import NextAndBack from "../../components/NextAndBack";
 
 export default function Article() {
   let info = articles.find((article) => article.id === useRouter().query.id);
   let title = "Etwas ist schief geloffen...";
   let content = "Bitte kontaktieren Sie den Administrator.";
   let image;
+  let id_num;
 
   if (info) {
+    id_num = info.id_num;
     title = info.title;
     content = info.content;
     image = info.image;
@@ -42,9 +43,7 @@ export default function Article() {
           <Image src={image} width="400" height="300" alt={image} className={styles.image}/>
         </div>
       </main>
-      <Link href="/articles" className={styles.backButton}>
-        <i className="fas fa-arrow-left"></i>
-      </Link>
+      <NextAndBack next={id_num + 1} back={id_num - 1}></NextAndBack>
     </div>
   );
 }

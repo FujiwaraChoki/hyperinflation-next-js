@@ -1,7 +1,4 @@
 # Hyperinflation Website
 
 TODO
-* Information
-* Images
-* Back button in articles page
-* Make more lively
+* Make important articles stand out with bigger size and images

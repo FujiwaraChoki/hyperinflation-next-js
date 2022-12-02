@@ -1,7 +1,6 @@
 // Quiz für die Hyperinflation
 import React, { useEffect, useState } from "react";
 import Head from "next/head";
-import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import Nav from "./Nav";
 import Theme from "./Theme";
@@ -84,7 +83,7 @@ export default function Quiz() {
   };
 
   return (
-    <div>
+    <>
       <Head>
         <title>Hyperinflation</title>
         <link
@@ -147,6 +146,6 @@ export default function Quiz() {
           )}
         </div>
       </main>
-    </div>
+    </>
   );
 }

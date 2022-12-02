@@ -44,13 +44,13 @@
 
 .title {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 20px;
 }
 
 .description {
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .grid {
@@ -71,6 +71,8 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
+  min-height: 200px;
+  max-height: 200px;
 }
 
 .card:hover,
@@ -152,32 +154,6 @@
   margin-right: 20px;
 }
 
-.backButton {
-  position: absolute;
-  bottom: 10;
-  margin: 1rem;
-  padding: 0.5rem;
-  border: none;
-  border-radius: 5px;
-  background: #fafafa;
-  color: #000;
-  font-size: 1rem;
-  cursor: pointer;
-  font-size: 30px;
-  transition: background 0.15s ease, color 0.15s ease;
-}
-
-.backButton:hover,
-.backButton:active {
-  color: #fff;
-  background: #2759ff;
-}
-
-.backButton:focus {
-  background: #2759ff;
-  color: #fff;
-}
-
 .button {
   margin: 1rem;
   padding: 0.5rem;
@@ -236,6 +212,7 @@
 .answerbutton {
   background-color: #ffffff;
   border: 1px solid #000000;
+  color: #000000;
   border-radius: 10px;
   padding: 0.5rem;
   margin: 0.5rem;
@@ -247,4 +224,39 @@
   background-color: #000000;
   color: #ffffff;
   cursor: pointer;
+  border: 1px solid #ffffff;
+}
+
+.nextAndBackButtons {
+  /*Position them in the middle*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.backButton,
+.nextButton {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  color: #000000;
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-size: 1.3rem;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.backButton:hover,
+.nextButton:hover {
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+}
+
+.article1 {
+  min-height: 400px;
+  max-width: 400px;
+  margin-left: -200px;
 }
