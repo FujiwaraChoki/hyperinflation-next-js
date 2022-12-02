@@ -1,11 +1,16 @@
 // This file contains all the articles which are needed.
-
 export default [
   {
     id_num: 1,
     id: "was-ist-eine-inflation",
     title: "Was ist eine Inflation?",
-    image: "https://i.imgur.com/1WT8Yjb.jpeg",
+    images: [
+      {
+        src: "https://i.imgur.com/1WT8Yjb.jpeg",
+        height: 300,
+        width: 400,
+      },
+    ],
     content: `
     Eine Inflation ist ein Prozess der Geldentwertung. Der Wert des Geldes nimmt über eine bestimmte Zeit ab. Das heisst auch, dass sich die Kaufkraft des Geldes dauernd vermindert. Jede Person will sein Geld so schnell wie möglich ausgeben, um weiteren Preissteigerungen zu entgehen. Die Folge davon ist eine immer schnellere Nachfrage und immer noch schnellere Preissteigerungen. Das Volk verliert dann meistens das Vertrauen in die inländische Währung und versucht dann ihr Geld in wertbeständige Währung umzuwandeln (zum Beispiel Gold, Silber und noch weitere) Zu einer Inflation zählt nicht eine einmalige Preiserhöhung eines bestimmten Produktes oder einer bestimmten Dienstleistung, sondern alles wird teurer. Wenn also zum Beispiel Nahrungsmittel teurer werden wegen einer Missernte, dann zählt das nicht zu einer Inflation. Die Berechnung der Inflationsrate erfolgt meist auf Basis des sogenannten Konsumentenpreisindex (KPI). Der KPI zeigt die Veränderung der Preise für einen festgelegten Warenkorb, den ein durchschnittlicher Haushalt kaufen würde. Je höher die Inflation ist, desto weniger können wir mit unserem Geld kaufen. Zum Beispiel konnte man in einem vorherigen Jahr für 4 Franken ein Brot kaufen, und im nächsten Jahr ist das günstigste Brot 20 Franken teuer, dies kann man nur durch eine Inflation erklären. Die Kaufkraft unseres Geldes nimmt also in diesem Fall ab. Umgekehrt gilt: Je niedriger die Inflation ist, desto mehr kann unser Geld kaufen. Die Kaufkraft unseres Geldes steigt und damit auch unser "Realeinkommen", weil wir immer mehr Güter und Dienstleistungen für unser Geld bekommen. 
     Nach der Geschwindigkeit der Inflation unterscheidet man zwischen vier verschiedenen Arten. 
@@ -22,7 +27,13 @@ export default [
     id_num: 2,
     id: "der-erste-weltkrieg",
     title: "Der erste Weltkrieg",
-    image: "https://i.imgur.com/poa2YdH.jpeg",
+    images: [
+      {
+        src: "https://i.imgur.com/poa2YdH.jpeg",
+        height: 300,
+        width: 400,
+      },
+    ],
     content: `Der erste Weltkrieg begann am 28. Juli 1914.
     Der Krieg dauerte lange vier Jahre und drei Monate,
     und es waren nicht nur Soldaten gestorben, sondern auch viele
@@ -34,10 +45,17 @@ export default [
     nahezu unmöglich machte.`,
   },
   {
+
     id_num: 3,
     id: "die-hyperinflation-von-1923",
     title: "Die Hyperinflation von 1923",
-    image: "https://i.imgur.com/Oo7bf9g.jpeg",
+    images: [
+      {
+        src: "https://i.imgur.com/Oo7bf9g.jpeg",
+        height: 300,
+        width: 400,
+      },
+    ],
     content: `
     Das Jahr 1923 war für die Weimarer Republik ein schwieriges Jahr. Man hatte mit verschiedenen Putsch Versuchen von links und rechts zu kämpfen, gleichzeitig waren Belgier und Franzosen 1923 in das Ruhrgebiet einmarschiert. Damit wollten die Franzosen und die Belgier erzwingen, dass die Deutschen ihren Reparationsleistungen (Wiedergutmachungsgeld) nachkommen würden. Denn tatsächlich hatten die Franzosen den Vorwurf erhoben, die Deutschen würden ihren Verpflichtungen nicht ausreichend nachkommen und nun müsste man hier Druck machen, um den Deutschen folgendes klarzumachen.
     «Ihr habt den Versailler Vertrag unterschrieben, seht zu, dass ihr die Kriegsbedingungen erfüllt.
@@ -57,10 +75,17 @@ export default [
     Der Dawes Plan, den dieser Mann entwickelte, sollte nun für die kommenden Jahre wichtig werden, für die Reparationsleistungen und überhaupt für die wirtschaftliche Belastung Deutschlands. Je nachdem sollten auch die Kinder damals kein gutes Leben geführt haben.`,
   },
   {
+
     id_num: 4,
     id: "wie-loest-man-eine-hyperinflation",
     title: "Wie löst man eine Hyperinflation?",
-    image: "https://i.imgur.com/XRgbH24.png",
+    images: [
+      {
+        src: "https://i.imgur.com/XRgbH24.png",
+        height: 300,
+        width: 400,
+      },
+    ],
     content: `Zuerst, das Szenario:
     Du lebst im Jahr 1922 in Berlin, Deutschland. Du hattest gerade den zweiten Weltkrieg überstanden und warst im Gange, dein Leben wieder aufzubauen. Und genau als es dir wieder halbwegs gut ging, hat die Hyperinflation die Chance ergriffen, Millionen von Menschen das Leben zu zerstören, und einer davon bist du.
     Innerhalb weniger Monate oder Tage, ist dein Geld schon fast nichts wert mehr. Du hast deine Arbeit verloren, weil sich der Arbeitsgeber deinen monatlichen Gehalt nicht leisten kann, und du bist wortwörtlich ruiniert. Das war das Leben von über 50% der Population im damaligen Deutschen Reich in 1923. Die Hyperinflation von 1923 wurde auch die grosse Depression genannt, weil es alle depressiv gemacht hat. Aber wen? Die Mittelschicht. Denn die Reichen waren immer noch halbwegs reich, und die Armen waren halt immer noch arm. Es hatte sich für die nichts geändert, aber für die von der Mittelschicht, war das ein Alptraum.
@@ -75,8 +100,13 @@ export default [
     id_num: 5,
     id: "die-weimarer-republik",
     title: "Die Weimarer Republik",
-    image:
-      "https://www.planet-wissen.de/geschichte/deutsche_geschichte/weimarer_republik/weimarer-republik-gruendung-100~_v-gseagaleriexl.jpg",
+    images: [
+      {
+        src: "https://www.planet-wissen.de/geschichte/deutsche_geschichte/weimarer_republik/weimarer-republik-gruendung-100~_v-gseagaleriexl.jpg",
+        height: 300,
+        width: 400,
+      },
+    ],
     content: `
     Die Weimarer Republik war eine demokratische Staatsform, die von 1919 bis 1933 bestand. Sie wurde nach dem Ersten Weltkrieg geschaffen und sollte Deutschland wieder zu einem friedlichen und prosperierenden Land machen. Allerdings endete die Republik vorzeitig mit der Machtübernahme der Nationalsozialisten unter Adolf Hitler im Jahre 1933.
     Die Weimarer Republik war ein Ausdruck des Versuchs, das Deutsche Kaiserreich nach dem Ersten Weltkrieg neu zuordnen. Der Vertrag von Versailles hatte Deutschland schwere Lasten auferlegt und es für seine verlorenen Kriege verantwortlich gemacht. Die Weimarer Republik wurde daher als notwendige Reaktion auf die Niederlage im Ersten Weltkrieg betrachtet.
@@ -90,8 +120,14 @@ export default [
     id_num: 6,
     id: "deutsche-mark",
     title: "Deutsche Mark",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/100_DM_Serie4_Vorderseite.jpg/297px-100_DM_Serie4_Vorderseite.jpg",
+    images:
+      [
+        {
+          src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/100_DM_Serie4_Vorderseite.jpg/297px-100_DM_Serie4_Vorderseite.jpg",
+          height: 297,
+          width: 200,
+        },
+      ],
     content: `
     Die Währung "Deutsche Mark" wurde am 23. Juni 1948 eingeführt. Diese Währung ersetzte die "Reichsmark", welche seit dem Ende des Ersten Weltkriegs in Gebrauch war. Die Deutsche Mark wurde als neue nationale Währung der Bundesrepublik Deutschland eingeführt und war bis zur Einführung der Euro-Währung im Jahr 2002 die offizielle Währung in Deutschland.
     Die Deutsch Mark hatte einen Nominalwert von 1:1 mit der Reichsmark. Durch die Inflation, welche nach dem Ersten Weltkrieg in Deutschland herrschte, war die Reichsmark allerdings bereits stark entwertet, sodass dieser Umrechnungswert nicht mehr realistisch war. Stattdessen wurde von vornherein ein Kurs von 4:1 vereinbart, sodass am Ende 1 DM = 4 RM galt. Damit wurden die Guthaben der Bürger aus dem Zweiten Weltkrieg relativ gut behandelt, was für grosses Vertrauen in die neue Währung sorgte.
@@ -101,7 +137,7 @@ export default [
     id_num: 7,
     id: "reichsmark",
     title: "Reichsmark",
-    image:
+    images:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/10_Reichsmark_1924-10-11.jpg/1024px-10_Reichsmark_1924-10-11.jpg",
     content: `
     Die erste Reichsmark wurde im Jahr 1871 eingeführt, als Deutschland eine nationale Währung für das ganze Reich erhielt. Die Reichsmark ersetzte die Vielzahl an lokalen Währungen, die bis dahin in Deutschland verwendet worden waren. Die neue Währung war an den Goldstandard gebunden und sofort beliebt. Im Jahr 1914, zu Beginn des Ersten Weltkrieges, wurde die Bindung an den Goldstandard aufgehoben. Dies bedeutete, dass die Reichsmark nun nicht mehr an den Preis von Gold gebunden war. Stattdessen wurde sie an den Preis von Silber gebunden. 1914 war auch das Jahr, in dem die zweite Reichsmark eingeführt wurde. Diese neue Währung hatte einen niedrigeren Silbergehalt als die erste Reichsmark und war somit wertlos.
@@ -112,14 +148,9 @@ export default [
     id_num: 8,
     id: "vergleich-zu-anderen-hyperinflationen",
     title: "Vergleich zu anderen Hyperinflationen",
-    image: [
+    images: [
       {
         src: "https://static.dw.com/image/61137417_303.jpg",
-        height: 300,
-        width: 400,
-      },
-      {
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/10_Reichsmark_1924-10-11.jpg/1024px-10_Reichsmark_1924-10-11.jpg",
         height: 300,
         width: 400,
       },
@@ -131,12 +162,18 @@ export default [
     Um die Inflation in Ungarn zu kontrollieren, wurde am 1. August 1946 der ungarische Forint eingeführt. Der Wechselkurs wurde zentral festgelegt und ein Forint entsprach etwa 200 Millionen Adopengö (200.000.000.000 Pengö). Die alte Währung konnte bis September 1946 umgetauscht werden. Die Einführung des Forint und die gleichzeitige Abwertung der Währung setzten der Hyperinflation in Ungarn ein Ende. Der Staat könnte wieder eine normale Wirtschaftspolitik betreiben und die Entwicklung der Landwirtschaft fördern. Nach und nach konnten auch die Menschen in Ungarn wieder Vermögen und einen angemessenen Lebensstandard aufbauen.`,
   },
   {
+
     id_num: 9,
     id: "inflation-2022",
     title: "Inflation 2022",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/2/20/Inflation_rate%2C_United_States_and_Eurozone%2C_January_2016_through_June_2022.png",
-    content: `
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/2/20/Inflation_rate%2C_United_States_and_Eurozone%2C_January_2016_through_June_2022.png",
+      height: 300,
+      width: 400,
+      },
+],
+content: `
     In diesem Jahr, 2022, gibt es auch eine Inflation.
     Die Inflationsrate liegt im weltweiten Durchschnitt bei etwa 7.7%.
     Die Inflationsrate liegt damit 5% über der durchschnittlichen Inflationsrate
@@ -162,13 +199,20 @@ export default [
     Energie nicht mehr von Russland beziehen, damit der Krieg nicht noch länger standhält.
     Da wir nun unsere Energie selber oder aus anderen Ländern beziehen müssen, ist die ganze Energie viel teurer geworden. Wegen des derzeitigen Krieges und der laufenden Corona-Pandemie sind die Preise jedes Produktes stark gestiegen, die Menschen verdienen aber nicht mehr Geld als zuvor. Das hat eine enorme Auswirkung auf die gesamtwirtschaftliche Lage.`,
   },
-  {
-    id_num: 10,
-    id: "deflation",
-    title: "Deflation",
-    image: "https://i.imgur.com/hkY6gyd.jpg",
-    content: `
-    Deflation ist das Gegenteil einer Inflation und ist, wenn der Preis für alles abnimmt. Auch der Grund ist das Gegenteil. Wie wir in den vorherigen Texten gelernt haben, passiert Inflation oder Hyperinflation, wenn viel Geld gedruckt wird. Deflation passiert, wenn wenig Geld gedruckt wird. Das heisst, das angesparte Geld der Bevölkerung wird mit der Zeit immer mehr wert.
-    Hier ist noch ein gutes Bild, dass den Unterschied zwischen Inflation und Deflation gut darstellt:`,
+{
+  
+  id_num: 10,
+  id: "deflation",
+  title: "Deflation",
+  images: [
+    {
+      src: "https://i.imgur.com/hkY6gyd.jpg",
+    height: 300,
+    width: 400,
+    }
+  ],
+  content: `
+  Deflation ist das Gegenteil einer Inflation und ist, wenn der Preis für alles abnimmt. Auch der Grund ist das Gegenteil. Wie wir in den vorherigen Texten gelernt haben, passiert Inflation oder Hyperinflation, wenn viel Geld gedruckt wird. Deflation passiert, wenn wenig Geld gedruckt wird. Das heisst, das angesparte Geld der Bevölkerung wird mit der Zeit immer mehr wert.
+  Hier ist noch ein gutes Bild, dass den Unterschied zwischen Inflation und Deflation gut darstellt:`,
   },
 ];

@@ -26,7 +26,9 @@ const getNextArticleName = (id) => {
         case 10:
             return "deflation";
         case 11:
-            return "QUIZ";
+            if(typeof window !== 'undefined') {
+                window.location.href = "https://hyperinflation-next-js.vercel.app/quiz";
+            }
         default:
             return "";
     }

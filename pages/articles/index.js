@@ -96,7 +96,7 @@ export default function Home() {
               <p>{truncate(article["content"])}</p>
               {
               ifpicture(article) ? (
-                <Image src={article.image.src} width={article.image.width} height={article.image.height} />) : null
+                <Image src={article.images[0].src} width={article.image.width} height={article.image.height} />) : null
               }
             </Link>
           ))}
