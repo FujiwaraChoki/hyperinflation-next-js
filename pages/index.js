@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
+import party from "party-js";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import Nav from "../components/Nav";
@@ -91,7 +91,13 @@ export default function Home() {
           width={200}
           style={{ marginTop: 30 }}
         />
-        <Link href="/articles" className={styles.button}>
+        <Link
+          href="/articles"
+          className={styles.button}
+          onClick={(e) => {
+            party.confetti(e.target);
+          }}
+        >
           Zu den Artikeln
         </Link>
       </main>

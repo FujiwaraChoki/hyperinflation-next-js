@@ -38,14 +38,11 @@
 
 .title {
   margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 20px;
+  width: 60%;
+  margin-bottom: 2rem;
 }
 
 .description {
@@ -259,68 +256,68 @@
   border: 1px solid #ffffff;
 }
 
-.article1{
+.article1 {
   border-color: red;
 }
 
-.article2{
+.article2 {
   border-color: red;
 }
 
-.article3{
+.article3 {
   border-color: red;
 }
 
-.article4{
+.article4 {
   border-color: rgb(255, 238, 0);
 }
 
-.article5{
+.article5 {
   border-color: rgb(255, 238, 0);
 }
 
-.article6{
-  border-color: rgb(0, 81, 255)
+.article6 {
+  border-color: rgb(0, 81, 255);
 }
 
-.article7{
-  border-color: rgb(0, 81, 255)
+.article7 {
+  border-color: rgb(0, 81, 255);
 }
 
-.article8{
-  border-color: rgb(0, 81, 255)
+.article8 {
+  border-color: rgb(0, 81, 255);
 }
 
-.article9{
-  border-color: rgb(0, 81, 255)
+.article9 {
+  border-color: rgb(0, 81, 255);
 }
 
-.article10{
-  border-color: rgb(0, 146, 0)
+.article10 {
+  border-color: rgb(0, 146, 0);
 }
 
-.article11{
-  border-color: rgb(0, 146, 0)
+.article11 {
+  border-color: rgb(0, 146, 0);
 }
 
-.article12{
-  border-color: rgb(255, 0, 212)
+.article12 {
+  border-color: rgb(255, 0, 212);
 }
 
-.article13{
-  border-color: rgb(255, 0, 212)
+.article13 {
+  border-color: rgb(255, 0, 212);
 }
 
-.article14{
-  border-color: rgb(0, 251, 255)
+.article14 {
+  border-color: rgb(0, 251, 255);
 }
 
-.article15{
-  border-color: rgb(0, 251, 255)
+.article15 {
+  border-color: rgb(0, 251, 255);
 }
 
-.article16{
-  border-color: rgb(255, 255, 255)
+.article16 {
+  border-color: rgb(255, 255, 255);
 }
 .pagecontainer {
   display: flex;
@@ -340,7 +337,7 @@
   padding: 1rem;
   margin-right: -900px;
   position: sticky;
-     top: 0;
+  top: 0;
 }
 
 .listcontainer:hover {
@@ -363,32 +360,32 @@
   margin: 1rem;
 }
 
-.erklärung  {
-  color: red
+.erklärung {
+  color: red;
 }
 
 .entstehung {
-  color: rgb(255, 238, 0)
+  color: rgb(255, 238, 0);
 }
 
 .währung {
-  color: rgb(0, 81, 255)
+  color: rgb(0, 81, 255);
 }
 
 .lander {
-  color: rgb(0, 146, 0)
+  color: rgb(0, 146, 0);
 }
 
 .bezug {
-  color: rgb(255, 0, 212)
+  color: rgb(255, 0, 212);
 }
 
 .betroffen {
-  color: rgb(0, 251, 255)
+  color: rgb(0, 251, 255);
 }
 
 .quellen {
-  color: rgb(255, 255, 255)
+  color: rgb(255, 255, 255);
 }
 
 .hidden {

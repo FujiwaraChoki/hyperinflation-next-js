@@ -1,5 +1,6 @@
 // Quiz für die Hyperinflation
 import React, { useEffect, useState } from "react";
+import party from "party-js";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Nav from "./Nav";
@@ -82,6 +83,15 @@ export default function Quiz() {
     }
   };
 
+  // Check if score is 5, if yes, show confetti
+  useEffect(() => {
+    if (score === 5) {
+      party.confetti(document.querySelector("body"), {
+        count: party.variation.range(100, 200),
+      });
+    }
+  }, [score]);
+
   return (
     <>
       <Head>
@@ -110,12 +120,21 @@ export default function Quiz() {
           {showScore ? (
             <div className={styles.scoresection}>
               Du hast {score} von {questions.length} Fragen richtig beantwortet.
-              <button
-                className={styles.button}
-                onClick={() => window.location.reload()}
-              >
-                Nochmal versuchen
-              </button>
+              {score !== 5 ? (
+                <button
+                  className={styles.button}
+                  onClick={() => window.location.reload()}
+                >
+                  Nochmal versuchen
+                </button>
+              ) : (
+                <button
+                  className={styles.button}
+                  onClick={() => window.location.reload()}
+                >
+                  Super gemacht! Nochmal spielen
+                </button>
+              )}
             </div>
           ) : (
             <>

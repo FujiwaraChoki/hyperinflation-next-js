@@ -1,5 +1,5 @@
-import { useEffect } from "react";
 import styles from "../styles/Home.module.css";
+import githubIcon from "./github.svg";
 
 const Theme = () => {
   const enableDarkTheme = () => {
@@ -30,6 +30,17 @@ const Theme = () => {
         onClick={disableDarkTheme}
       >
         <span className={"fas fa-sun"}></span>
+      </button>
+      <button
+        className={styles.themeButton}
+        onClick={() => {
+          window.open(
+            "https://github.com/FujiwaraChoki/hyperinflation-next-js",
+            "_blank"
+          );
+        }}
+      >
+        <span className={"fab fa-github"}></span>
       </button>
     </div>
   );
