@@ -4,7 +4,7 @@ import { useEffect } from "react";
 export default function QuizHome() {
   useEffect(() => {
     const body = document.querySelector("body");
-    // Unhide Overflow
+    // Hide Overflow
     body.style.overflowY = "hidden";
   });
 

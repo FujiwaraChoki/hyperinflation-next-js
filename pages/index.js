@@ -5,11 +5,11 @@ import styles from "../styles/Home.module.css";
 import Nav from "../components/Nav";
 import Theme from "../components/Theme";
 import Lottie from "react-lottie";
-import animationData from '../public/moneyAnimation.json';
+import animationData from "../public/moneyAnimation.json";
+import animationData2 from "../public/inflation2.json";
 import { useEffect } from "react";
 
 export default function Home() {
-
   useEffect(() => {
     const body = document.querySelector("body");
     body.style.overflowY = "hidden";
@@ -23,6 +23,35 @@ export default function Home() {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
+
+  const defaultOptions2 = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData2,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
+  useEffect(() => {
+    const description = document.querySelector("#project-description");
+    const inflation2 = document.querySelector("#inflation2animation");
+    const wrapperElement = document.querySelector("#wrapper");
+
+    description.addEventListener("mouseover", () => {
+      inflation2.style.display = "block";
+      wrapperElement.style.backgroundColor = "#000000";
+      wrapperElement.style.color = "#ffffff";
+      wrapperElement.style.padding = "1rem";
+    });
+
+    description.addEventListener("mouseout", () => {
+      inflation2.style.display = "none";
+      wrapperElement.style.backgroundColor = "#ffffff";
+      wrapperElement.style.color = "#000000";
+      wrapperElement.style.padding = "0rem";
+    });
+  });
 
   return (
     <>
@@ -41,13 +70,27 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Die Hyperinflation von 1923</h1>
         <br />
-        <p className={styles.articleText}>
-          Lernen Sie die Geschichte der Hyperinflation von 1923 kennen. Wie kam
-          es dazu? Was waren die Ursachen? Wie hat sich die Inflation auf die
-          Menschen ausgewirkt?
-        </p>
+        <div
+          className={styles.description}
+          id="wrapper"
+          style={{ transition: "all 0.5s" }}
+        >
+          <p id="project-description">
+            Lernen Sie die Geschichte der Hyperinflation von 1923 kennen. Wie
+            kam es dazu? Was waren die Ursachen? Wie hat sich die Inflation auf
+            die Menschen ausgewirkt?
+          </p>
+          <div className={styles.hidden} id="inflation2animation">
+            <Lottie options={defaultOptions2} height={200} width={200} />
+          </div>
+        </div>
         <br />
-        <Lottie options={defaultOptions} height={200} width={200} style={{ marginTop: 30}}/>
+        <Lottie
+          options={defaultOptions}
+          height={200}
+          width={200}
+          style={{ marginTop: 30 }}
+        />
         <Link href="/articles" className={styles.button}>
           Zu den Artikeln
         </Link>
