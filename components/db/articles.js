@@ -45,7 +45,6 @@ export default [
     nahezu unmöglich machte.`,
   },
   {
-
     id_num: 3,
     id: "die-hyperinflation-von-1923",
     title: "Die Hyperinflation von 1923",
@@ -75,7 +74,6 @@ export default [
     Der Dawes Plan, den dieser Mann entwickelte, sollte nun für die kommenden Jahre wichtig werden, für die Reparationsleistungen und überhaupt für die wirtschaftliche Belastung Deutschlands. Je nachdem sollten auch die Kinder damals kein gutes Leben geführt haben.`,
   },
   {
-
     id_num: 4,
     id: "wie-loest-man-eine-hyperinflation",
     title: "Wie löst man eine Hyperinflation?",
@@ -120,14 +118,13 @@ export default [
     id_num: 6,
     id: "deutsche-mark",
     title: "Deutsche Mark",
-    images:
-      [
-        {
-          src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/100_DM_Serie4_Vorderseite.jpg/297px-100_DM_Serie4_Vorderseite.jpg",
-          height: 297,
-          width: 200,
-        },
-      ],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/100_DM_Serie4_Vorderseite.jpg/297px-100_DM_Serie4_Vorderseite.jpg",
+        height: 297,
+        width: 200,
+      },
+    ],
     content: `
     Die Währung "Deutsche Mark" wurde am 23. Juni 1948 eingeführt. Diese Währung ersetzte die "Reichsmark", welche seit dem Ende des Ersten Weltkriegs in Gebrauch war. Die Deutsche Mark wurde als neue nationale Währung der Bundesrepublik Deutschland eingeführt und war bis zur Einführung der Euro-Währung im Jahr 2002 die offizielle Währung in Deutschland.
     Die Deutsch Mark hatte einen Nominalwert von 1:1 mit der Reichsmark. Durch die Inflation, welche nach dem Ersten Weltkrieg in Deutschland herrschte, war die Reichsmark allerdings bereits stark entwertet, sodass dieser Umrechnungswert nicht mehr realistisch war. Stattdessen wurde von vornherein ein Kurs von 4:1 vereinbart, sodass am Ende 1 DM = 4 RM galt. Damit wurden die Guthaben der Bürger aus dem Zweiten Weltkrieg relativ gut behandelt, was für grosses Vertrauen in die neue Währung sorgte.
@@ -137,8 +134,13 @@ export default [
     id_num: 7,
     id: "reichsmark",
     title: "Reichsmark",
-    images:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/10_Reichsmark_1924-10-11.jpg/1024px-10_Reichsmark_1924-10-11.jpg",
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/10_Reichsmark_1924-10-11.jpg/1024px-10_Reichsmark_1924-10-11.jpg",
+        height: 1024,
+        width: 800,
+      },
+    ],
     content: `
     Die erste Reichsmark wurde im Jahr 1871 eingeführt, als Deutschland eine nationale Währung für das ganze Reich erhielt. Die Reichsmark ersetzte die Vielzahl an lokalen Währungen, die bis dahin in Deutschland verwendet worden waren. Die neue Währung war an den Goldstandard gebunden und sofort beliebt. Im Jahr 1914, zu Beginn des Ersten Weltkrieges, wurde die Bindung an den Goldstandard aufgehoben. Dies bedeutete, dass die Reichsmark nun nicht mehr an den Preis von Gold gebunden war. Stattdessen wurde sie an den Preis von Silber gebunden. 1914 war auch das Jahr, in dem die zweite Reichsmark eingeführt wurde. Diese neue Währung hatte einen niedrigeren Silbergehalt als die erste Reichsmark und war somit wertlos.
     Die erste Reichsmark war also an den Goldstandard gebunden und die zweite an den Silberstandard. Im Jahr 1923 wurde schließlich die dritte Reichsmark eingeführt. Diese neue Währung hatte keinen Metallgehalt mehr und war daher vollkommen wertlos. Die Bevölkerung verlor dadurch Vertrauen in die Währung und es kam zu einer Inflation. Als Folge davon wurden immer mehr Güter und Dienstleistungen in andere Währungen getauscht oder bar bezahlt. Die Inflation eskalierte so sehr, dass im November 1923 eine neue Währung, die Rentenmark, eingeführt werden musste. Die Rentenmark hatte einen festen Wechselkurs zu anderen Währungen und so konnte die Inflation endlich gestoppt werden.
@@ -162,18 +164,17 @@ export default [
     Um die Inflation in Ungarn zu kontrollieren, wurde am 1. August 1946 der ungarische Forint eingeführt. Der Wechselkurs wurde zentral festgelegt und ein Forint entsprach etwa 200 Millionen Adopengö (200.000.000.000 Pengö). Die alte Währung konnte bis September 1946 umgetauscht werden. Die Einführung des Forint und die gleichzeitige Abwertung der Währung setzten der Hyperinflation in Ungarn ein Ende. Der Staat könnte wieder eine normale Wirtschaftspolitik betreiben und die Entwicklung der Landwirtschaft fördern. Nach und nach konnten auch die Menschen in Ungarn wieder Vermögen und einen angemessenen Lebensstandard aufbauen.`,
   },
   {
-
     id_num: 9,
     id: "inflation-2022",
     title: "Inflation 2022",
     images: [
       {
         src: "https://upload.wikimedia.org/wikipedia/commons/2/20/Inflation_rate%2C_United_States_and_Eurozone%2C_January_2016_through_June_2022.png",
-      height: 300,
-      width: 400,
+        height: 300,
+        width: 400,
       },
-],
-content: `
+    ],
+    content: `
     In diesem Jahr, 2022, gibt es auch eine Inflation.
     Die Inflationsrate liegt im weltweiten Durchschnitt bei etwa 7.7%.
     Die Inflationsrate liegt damit 5% über der durchschnittlichen Inflationsrate
@@ -199,19 +200,18 @@ content: `
     Energie nicht mehr von Russland beziehen, damit der Krieg nicht noch länger standhält.
     Da wir nun unsere Energie selber oder aus anderen Ländern beziehen müssen, ist die ganze Energie viel teurer geworden. Wegen des derzeitigen Krieges und der laufenden Corona-Pandemie sind die Preise jedes Produktes stark gestiegen, die Menschen verdienen aber nicht mehr Geld als zuvor. Das hat eine enorme Auswirkung auf die gesamtwirtschaftliche Lage.`,
   },
-{
-  
-  id_num: 10,
-  id: "deflation",
-  title: "Deflation",
-  images: [
-    {
-      src: "https://i.imgur.com/hkY6gyd.jpg",
-    height: 300,
-    width: 400,
-    }
-  ],
-  content: `
+  {
+    id_num: 10,
+    id: "deflation",
+    title: "Deflation",
+    images: [
+      {
+        src: "https://i.imgur.com/hkY6gyd.jpg",
+        height: 300,
+        width: 400,
+      },
+    ],
+    content: `
   Deflation ist das Gegenteil einer Inflation und ist, wenn der Preis für alles abnimmt. Auch der Grund ist das Gegenteil. Wie wir in den vorherigen Texten gelernt haben, passiert Inflation oder Hyperinflation, wenn viel Geld gedruckt wird. Deflation passiert, wenn wenig Geld gedruckt wird. Das heisst, das angesparte Geld der Bevölkerung wird mit der Zeit immer mehr wert.
   Hier ist noch ein gutes Bild, dass den Unterschied zwischen Inflation und Deflation gut darstellt:`,
   },

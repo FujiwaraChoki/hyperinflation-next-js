@@ -65,7 +65,7 @@ export default function Home() {
       case 9:
         return true;
       case 10:
-        return false
+        return false;
     }
   }
 
@@ -94,10 +94,13 @@ export default function Home() {
             >
               <h3>{article["title"]}</h3>
               <p>{truncate(article["content"])}</p>
-              {
-              ifpicture(article) ? (
-                <Image src={article.images[0].src} width={article.image.width} height={article.image.height} />) : null
-              }
+              {ifpicture(article) ? (
+                <Image
+                  src={article.images[0].src}
+                  width={article.images[0].width}
+                  height={article.images[0].height}
+                />
+              ) : null}
             </Link>
           ))}
         </div>
