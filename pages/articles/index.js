@@ -41,31 +41,19 @@ export default function Home() {
         return styles.article9;
       case 10:
         return styles.article10;
-    }
-  }
-
-  function ifpicture(article) {
-    switch (article.id_num) {
-      case 1:
-        return true;
-      case 2:
-        return true;
-      case 3:
-        return true;
-      case 4:
-        return true;
-      case 5:
-        return false;
-      case 6:
-        return false;
-      case 7:
-        return false;
-      case 8:
-        return true;
-      case 9:
-        return true;
-      case 10:
-        return false;
+      case 11:
+        return styles.article11;
+      case 12:
+        return styles.article12;
+      case 13:
+        return styles.article13;
+      case 14:
+        return styles.article14;
+      case 15:
+        return styles.article15;
+      case 16:
+        return styles.article16;
+        
     }
   }
 
@@ -84,7 +72,20 @@ export default function Home() {
       <Nav></Nav>
       <Theme></Theme>
       <main className={styles.main}>
-        <h1 className={styles.title}>Alle Artikel</h1>
+        <h1 className={styles.title}>Eine Zusamenfassung der wichtigsten Begriffe und Ereignisse der Hyperinflation und wie es dazu kam</h1>
+        <div className={styles.pagecontainer}>
+        <div className={styles.listcontainer}>
+          <h2>Legende</h2>
+          <ul className={styles.list}>
+            <li className={styles.erklärung}>Erklärung</li>
+            <li className={styles.entstehung}>Entstehung</li>   
+            <li className={styles.währung}>Währungspolitik</li>
+            <li className={styles.lander}>Ländervergleich</li>
+            <li className={styles.bezug}>Aktualitätsbezug</li>
+            <li className={styles.betroffen}>Wohlstandentwicklung</li>
+            <li className={styles.quellen}>Quellenverzeichnis</li>
+          </ul>
+        </div>
         <div className={styles.grid}>
           {articles.map((article) => (
             <Link
@@ -94,15 +95,10 @@ export default function Home() {
             >
               <h3>{article["title"]}</h3>
               <p>{truncate(article["content"])}</p>
-              {ifpicture(article) ? (
-                <Image
-                  src={article.images[0].src}
-                  width={article.images[0].width}
-                  height={article.images[0].height}
-                />
-              ) : null}
+
             </Link>
           ))}
+        </div>
         </div>
       </main>
     </div>

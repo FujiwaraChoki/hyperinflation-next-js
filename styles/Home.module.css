@@ -62,6 +62,7 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
+  margin-top: -330px;
 }
 
 .card {
@@ -78,11 +79,10 @@
   max-height: 200px;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.card:hover {
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05);
 }
 
 .card h2 {
@@ -259,10 +259,136 @@
   border: 1px solid #ffffff;
 }
 
-.article1 {
-  min-height: 400px;
-  max-width: 400px;
-  margin-left: -200px;
+.article1{
+  border-color: red;
+}
+
+.article2{
+  border-color: red;
+}
+
+.article3{
+  border-color: red;
+}
+
+.article4{
+  border-color: rgb(255, 238, 0);
+}
+
+.article5{
+  border-color: rgb(255, 238, 0);
+}
+
+.article6{
+  border-color: rgb(0, 81, 255)
+}
+
+.article7{
+  border-color: rgb(0, 81, 255)
+}
+
+.article8{
+  border-color: rgb(0, 81, 255)
+}
+
+.article9{
+  border-color: rgb(0, 81, 255)
+}
+
+.article10{
+  border-color: rgb(0, 146, 0)
+}
+
+.article11{
+  border-color: rgb(0, 146, 0)
+}
+
+.article12{
+  border-color: rgb(255, 0, 212)
+}
+
+.article13{
+  border-color: rgb(255, 0, 212)
+}
+
+.article14{
+  border-color: rgb(0, 251, 255)
+}
+
+.article15{
+  border-color: rgb(0, 251, 255)
+}
+
+.article16{
+  border-color: rgb(255, 255, 255)
+}
+.pagecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.listcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  border: solid grey;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-right: -900px;
+  position: sticky;
+     top: 0;
+}
+
+.listcontainer:hover {
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+}
+
+.listcontainer h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.erklärung  {
+  color: red
+}
+
+.entstehung {
+  color: rgb(255, 238, 0)
+}
+
+.währung {
+  color: rgb(0, 81, 255)
+}
+
+.lander {
+  color: rgb(0, 146, 0)
+}
+
+.bezug {
+  color: rgb(255, 0, 212)
+}
+
+.betroffen {
+  color: rgb(0, 251, 255)
+}
+
+.quellen {
+  color: rgb(255, 255, 255)
 }
 
 .hidden {
