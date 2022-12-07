@@ -8,7 +8,8 @@ const nextConfig = {
       "www.planet-wissen.de",
       "upload.wikimedia.org",
       "static.dw.com",
-      "i.postimg.cc"
+      "i.postimg.cc",
+      "avatars.githubusercontent.com"
     ],
   },
 };
