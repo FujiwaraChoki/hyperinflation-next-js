@@ -7,18 +7,35 @@ import { useRouter } from "next/router";
 import articles from "../../components/db/articles";
 import NextAndBack from "../../components/NextAndBack";
 
+
+const renderImages = (images) => {
+  return images.map((image) => {
+    return (
+      <Image
+        width={image.width}
+        height={image.height}
+        src={image.src}
+        alt={image.src}
+        className={styles.image}
+      />
+    );
+  });
+};
+
 export default function Article() {
   let info = articles.find((article) => article.id === useRouter().query.id);
+
   let title = "Etwas ist schief geloffen...";
   let content = "Bitte kontaktieren Sie den Administrator.";
-  let image;
+  let images;
   let id_num;
 
   if (info) {
     id_num = info.id_num;
     title = info.title;
     content = info.content;
-    image = info.image;
+    images = info.images;
+    console.log(images);
   }
 
   return (
@@ -40,7 +57,9 @@ export default function Article() {
         <br />
         <div className={styles.contentWrapper}>
           <p className={styles.articleText}>{content}</p>
-          <Image src={image} width="400" height="300" alt={image} className={styles.image}/>
+        </div>
+        <div className={styles.imagesWrapper}>
+          {images ? renderImages(images) : null}
         </div>
       </main>
       <NextAndBack next={id_num + 1} back={id_num - 1}></NextAndBack>

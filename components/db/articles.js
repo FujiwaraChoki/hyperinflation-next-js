@@ -7,8 +7,8 @@ export default [
     images: [
       {
         src: "https://i.imgur.com/1WT8Yjb.jpeg",
-        height: 400,
-        width: 500, 
+        height: 200,
+        width: 200, 
       },
     ],
     content: `
@@ -30,8 +30,8 @@ export default [
     images: [
       {
         src: "https://i.imgur.com/Oo7bf9g.jpeg",
-        height: 300,
-        width: 400,
+        height: 200,
+        width: 200,
       },
     ],
     content: `
@@ -59,8 +59,8 @@ export default [
     images: [
       {
         src: "https://i.imgur.com/hkY6gyd.jpg",
-        height: 300,
-        width: 400,
+        height: 200,
+        width: 200,
       },
     ],
     content: `
@@ -74,7 +74,7 @@ export default [
     images: [
       {
         src: "https://i.postimg.cc/s2rsK2KC/Screenshot-2022-12-02-103131.png",
-        height: 100,
+        height: 200,
         width: 200,
       },
     ],
@@ -95,8 +95,8 @@ export default [
     images: [
       {
         src: "https://www.planet-wissen.de/geschichte/deutsche_geschichte/weimarer_republik/weimarer-republik-gruendung-100~_v-gseagaleriexl.jpg",
-        height: 300,
-        width: 400,
+        height: 200,
+        width: 200,
       },
     ],
     content: `
@@ -150,7 +150,7 @@ export default [
     images: [
       {
         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/100_DM_Serie4_Vorderseite.jpg/297px-100_DM_Serie4_Vorderseite.jpg",
-        height: 297,
+        height: 200,
         width: 200,
       },
     ],
@@ -166,8 +166,8 @@ export default [
     images: [
       {
         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/10_Reichsmark_1924-10-11.jpg/1024px-10_Reichsmark_1924-10-11.jpg",
-        height: 1024,
-        width: 800,
+        height: 200,
+        width: 200,
       },
     ],
     content: `
@@ -182,8 +182,8 @@ export default [
     images: [
       {
         src: "https://static.dw.com/image/61137417_303.jpg",
-        height: 300,
-        width: 400,
+        height: 200,
+        width: 200,
       },
     ],
     content: `
@@ -199,8 +199,8 @@ export default [
     images: [
       {
         src: "https://i.postimg.cc/bvvW3dds/zimb.png",
-        height: 300,
-        width: 400,
+        height: 200,
+        width: 200,
       }
     ],
     content: `Es gibt eine Hyperinflation, die vor nicht viele Jahren stattgefunden hat, und dass ist die in Zimbabwe. Sie hat bis jetzt einen sehr grossen Einfluss auf die Population. An der Spitze hatte Zimbabwe eine tägliche Inflationsrate von 98%, wie man in diesem Bild sehen kann: 
@@ -215,8 +215,8 @@ export default [
     images: [
       {
         src: "https://upload.wikimedia.org/wikipedia/commons/2/20/Inflation_rate%2C_United_States_and_Eurozone%2C_January_2016_through_June_2022.png",
-        height: 300,
-        width: 400,
+        height: 200,
+        width: 200,
       },
     ],
     content: `
@@ -249,7 +249,13 @@ export default [
     id_num: 13,
     id: "schweiz",
     title: "Situation in der Schweiz",
-    images: [],
+    images: [
+      {
+        src: "https://upload.wikimedia.org/wikipedia/commons/2/20/Inflation_rate%2C_United_States_and_Eurozone%2C_January_2016_through_June_2022.png",
+        height: 200,
+        width: 200,
+      },
+    ],
     content: `Ob man es glaubt oder nicht, in der Schweiz haben wir auch mit einer Art der Inflation zu tun, auch wenn sie sehr minimal ist, verglichen zu beispielsweise Deutschland 1923, Ungarn 1945 oder Zimbabwe 2007-2008. Über die letzten zwei Jahre ist die Kaufkraft der Bevölkerung um einiges gesunken, wie man im folgenden Bild sieht:
     In den letzten 20 Jahren (ohne die letzten 2), war die Situation eigentlich ziemlich stabil, 2008 ist jedoch eine Ausnahme zur Regel, da dort der Börsencrash, wo ein Haufen Amerikaner ihre Hypotheken nicht bezahlt haben, war. Aber so viel war die Schweiz auch nicht wieder beeinflusst, und innerhalb des nächsten Jahres waren wir wieder stabil unterwegs. Um diese Zeit fangen die Preise an, zu steigen. Zum Beispiel, vor ein paar Jahren hat man ein Glacé im Coop für 1–3 Schweizer Franken gekauft, jetzt aber kann der Preis von Glacé bis zu 30 Franken werden.
     `
@@ -261,8 +267,8 @@ export default [
     images: [
       {
         src: "https://i.imgur.com/XRgbH24.png",
-        height: 300,
-        width: 400,
+        height: 200,
+        width: 200,
       },
     ],
     content: `Zuerst, das Szenario:
@@ -279,7 +285,13 @@ export default [
     id_num: 15,
     id: "reich",
     title: "Arm und Reich",
-    images: [],
+    images: [
+      {
+        src: "https://i.imgur.com/4Z7Z7Zg.png",
+        height: 200,
+        width: 200,
+      },
+    ],
     content: `“Stellen Sie sich nun eine Person vor, die ein Vermögen von 30 Millionen US-Dollar hat (unabhängig davon, was sie verdient). Sein Vermögen sieht auch eine Inflationsrate von 5 Prozent vor. Sein Nettovermögen wird um 6 Millionen Dollar steigen (5 Prozent von 30 Millionen Dollar). Während es der Familie, die 30.000 Dollar verdient, nur schwerer fällt, ihre Rechnungen zu bezahlen, ist die reiche Person tatsächlich um einiges reicher geworden.”
     — Gold Country Media
     Und diese extra 6 Millionen mussten ja von irgendwo kommen, und die kamen von den 30’000 Dollar welche hunderte von Familien hatten.
@@ -290,7 +302,6 @@ export default [
     id_num: 16,
     id: "quellen",
     title: "Quellen",
-    images: [],
     content: `Was ist eine Hyperinflation: 
     https://www.bpb.de/kurz-knapp/lexika/lexikon-der-wirtschaft/19723/inflation/#:~:text=%C3%9Cbersteigt%20die%20gesamtwirtschaftliche%20G%C3%BCternachfrage%20das,die%20Nachfrage%20nach%20G%C3%BCtern%20an. 
     

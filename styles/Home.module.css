@@ -150,7 +150,6 @@
   line-height: 1.5;
   margin: 0;
   padding: 0;
-  width: 60%;
   margin-right: 20px;
 }
 
@@ -175,12 +174,8 @@
 }
 
 .contentWrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 50%;
-  height: 100%;
   margin-top: 40px;
+  width: 60%;
 }
 
 .scoresection {
@@ -390,4 +385,14 @@
 
 .hidden {
   display: none;
+}
+
+
+.imagesWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  margin-top: 40px;
 }
