@@ -7,8 +7,8 @@ export default [
     images: [
       {
         src: "https://i.imgur.com/1WT8Yjb.jpeg",
-        height: 200,
-        width: 200, 
+        height: 350,
+        width: 350, 
       },
     ],
     content: `
@@ -30,8 +30,8 @@ export default [
     images: [
       {
         src: "https://i.imgur.com/Oo7bf9g.jpeg",
-        height: 200,
-        width: 200,
+        height: 350,
+        width: 350,
       },
     ],
     content: `
@@ -59,8 +59,8 @@ export default [
     images: [
       {
         src: "https://i.imgur.com/hkY6gyd.jpg",
-        height: 200,
-        width: 200,
+        height: 350,
+        width: 350,
       },
     ],
     content: `
@@ -74,8 +74,8 @@ export default [
     images: [
       {
         src: "https://i.postimg.cc/s2rsK2KC/Screenshot-2022-12-02-103131.png",
-        height: 200,
-        width: 200,
+        height: 350,
+        width: 350,
       },
     ],
     content: `Der erste Weltkrieg begann am 28. Juli 1914.
@@ -95,8 +95,8 @@ export default [
     images: [
       {
         src: "https://www.planet-wissen.de/geschichte/deutsche_geschichte/weimarer_republik/weimarer-republik-gruendung-100~_v-gseagaleriexl.jpg",
-        height: 200,
-        width: 200,
+        height: 350,
+        width: 350,
       },
     ],
     content: `
@@ -150,12 +150,12 @@ export default [
     images: [
       {
         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/100_DM_Serie4_Vorderseite.jpg/297px-100_DM_Serie4_Vorderseite.jpg",
-        height: 200,
-        width: 200,
+        height: 350,
+        width: 350,
       },
     ],
     content: `
-    Die Währung "Deutsche Mark" wurde am 23. Juni 1948 eingeführt. Diese Währung ersetzte die "Reichsmark", welche seit dem Ende des Ersten Weltkriegs in Gebrauch war. Die Deutsche Mark wurde als neue nationale Währung der Bundesrepublik Deutschland eingeführt und war bis zur Einführung der Euro-Währung im Jahr 2002 die offizielle Währung in Deutschland.
+    Die Währung "Deutsche Mark" wurde am 23. Juni 1948 eingeführt. Diese Währung ersetzte die "Reichsmark", welche seit dem Ende des Ersten Weltkriegs in Gebrauch war. Die Deutsche Mark wurde als neue nationale Währung der Bundesrepublik Deutschland eingeführt und war bis zur Einführung der Euro-Währung im Jahr 3502 die offizielle Währung in Deutschland.
     Die Deutsch Mark hatte einen Nominalwert von 1:1 mit der Reichsmark. Durch die Inflation, welche nach dem Ersten Weltkrieg in Deutschland herrschte, war die Reichsmark allerdings bereits stark entwertet, sodass dieser Umrechnungswert nicht mehr realistisch war. Stattdessen wurde von vornherein ein Kurs von 4:1 vereinbart, sodass am Ende 1 DM = 4 RM galt. Damit wurden die Guthaben der Bürger aus dem Zweiten Weltkrieg relativ gut behandelt, was für grosses Vertrauen in die neue Währung sorgte.
     Eine weitere Besonderheit der Deutsch Mark war ihre Herkunft Sperre. Dies bedeutete, dass das Geld, welches in der alten Reichsmark gebunkert worden war, nicht mehr frei verfügbar war. Stattdessen musste es erst umgetauscht werden - was für viele Bürger einen erheblichen finanziellen Verlust bedeutete. Allerdings sorgte dies für weiterhin hohes Vertrauen in die neue Währung, da ansonsten befürchtet worden wäre, dass das Geld vom Staat beschlagnahmt wird.`,
   },
@@ -166,8 +166,8 @@ export default [
     images: [
       {
         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/10_Reichsmark_1924-10-11.jpg/1024px-10_Reichsmark_1924-10-11.jpg",
-        height: 200,
-        width: 200,
+        height: 350,
+        width: 350,
       },
     ],
     content: `
@@ -182,15 +182,15 @@ export default [
     images: [
       {
         src: "https://static.dw.com/image/61137417_303.jpg",
-        height: 200,
-        width: 200,
+        height: 350,
+        width: 350,
       },
     ],
     content: `
     Jetzt kommt noch ein Vergleich zwischen der Hyperinflation, die 1923 in Deutschland stattgefunden hat, und den anderen bekannten Inflationen.
     Mit dem Ende des Zweiten Weltkriegs wurde auch die deutsche Armee aus Ungarn zurückgezogen. Das Land wurde jedoch nicht selbstständig, sondern wurde von der Roten Armee unter Führung der Übergangsregierung besetzt. Allerdings kamen die Soldaten aus Russland nicht ausschliesslich als Freude. Sie vergewaltigten Frauen und deportierten ungarische Männer nach Russland. Hinzu kam die schwere finanzielle Belastung durch die Kriege, die etwa 40 Prozent des Volksvermögens ausmachte. Auch der wirtschaftliche Wiederaufbau gestaltete sich schwierig, da viele Brücken über die Donau und die Theiss zerstört waren und die Landwirtschaft während des Krieges etwa 50 % ihrer Maschinen und ihres Viehbestands verloren hatte. Zu diesem Zeitpunkt begann die Inflation in Ungarn, da Waren und Rohstoffe knapp wurden und die Preise weiter stiegen.
     Vor dem Einmarsch der russischen Truppen war der 1.000-Pengö-Schein die grösste Banknote in Ungarn. Im November 1945 musste die Zentralbank jedoch die erste Banknote von einer Million Pengö drucken. Während die Inflation noch wütete, fanden im November 1945 in Ungarn die Wahlen statt. Hier erhielt die Kleinbauernpartei rund 57 Prozent aller Stimmen. Die Partei leitete eine wichtige Landreform ein, bei der die Großgrundbesitzer verstaatlicht wurden und das Land an Kleinbauern und Familien vergeben wurde. Diese waren nun in der Lage, für sich selbst zu sorgen. Das verteilte Land war jedoch zu klein, um einen angemessenen Lebensunterhalt zu verdienen. Die Armut der Bevölkerung nahm weiter zu, was die Inflation anheizte. Im April 1946 war die Zentralbank gezwungen, zum ersten Mal die Milpengö-Währung einzuführen. Ein Milpengö entsprach einer Million pengö. Ab Juni 1946 wurde die Währung auf B. pengö (Billion pengö) umgestellt. Aufgrund der enormen Inflation konnten viele Menschen die täglichen Lebensmittel nicht mehr finanzieren. Sie kehrten zum alten Tauschhandel zurück, Steuern und Abgaben hingegen wurden mit dem Steuer-Pengö finanziert.
-    Um die Inflation in Ungarn zu kontrollieren, wurde am 1. August 1946 der ungarische Forint eingeführt. Der Wechselkurs wurde zentral festgelegt und ein Forint entsprach etwa 200 Millionen Adopengö (200.000.000.000 Pengö). Die alte Währung konnte bis September 1946 umgetauscht werden. Die Einführung des Forint und die gleichzeitige Abwertung der Währung setzten der Hyperinflation in Ungarn ein Ende. Der Staat könnte wieder eine normale Wirtschaftspolitik betreiben und die Entwicklung der Landwirtschaft fördern. Nach und nach konnten auch die Menschen in Ungarn wieder Vermögen und einen angemessenen Lebensstandard aufbauen.`,
+    Um die Inflation in Ungarn zu kontrollieren, wurde am 1. August 1946 der ungarische Forint eingeführt. Der Wechselkurs wurde zentral festgelegt und ein Forint entsprach etwa 350 Millionen Adopengö (350.000.000.000 Pengö). Die alte Währung konnte bis September 1946 umgetauscht werden. Die Einführung des Forint und die gleichzeitige Abwertung der Währung setzten der Hyperinflation in Ungarn ein Ende. Der Staat könnte wieder eine normale Wirtschaftspolitik betreiben und die Entwicklung der Landwirtschaft fördern. Nach und nach konnten auch die Menschen in Ungarn wieder Vermögen und einen angemessenen Lebensstandard aufbauen.`,
   },
   {
     id_num: 11,
@@ -199,8 +199,8 @@ export default [
     images: [
       {
         src: "https://i.postimg.cc/bvvW3dds/zimb.png",
-        height: 200,
-        width: 200,
+        height: 350,
+        width: 350,
       }
     ],
     content: `Es gibt eine Hyperinflation, die vor nicht viele Jahren stattgefunden hat, und dass ist die in Zimbabwe. Sie hat bis jetzt einen sehr grossen Einfluss auf die Population. An der Spitze hatte Zimbabwe eine tägliche Inflationsrate von 98%, wie man in diesem Bild sehen kann: 
@@ -215,8 +215,8 @@ export default [
     images: [
       {
         src: "https://upload.wikimedia.org/wikipedia/commons/2/20/Inflation_rate%2C_United_States_and_Eurozone%2C_January_2016_through_June_2022.png",
-        height: 200,
-        width: 200,
+        height: 350,
+        width: 350,
       },
     ],
     content: `
@@ -252,12 +252,12 @@ export default [
     images: [
       {
         src: "https://upload.wikimedia.org/wikipedia/commons/2/20/Inflation_rate%2C_United_States_and_Eurozone%2C_January_2016_through_June_2022.png",
-        height: 200,
-        width: 200,
+        height: 350,
+        width: 350,
       },
     ],
-    content: `Ob man es glaubt oder nicht, in der Schweiz haben wir auch mit einer Art der Inflation zu tun, auch wenn sie sehr minimal ist, verglichen zu beispielsweise Deutschland 1923, Ungarn 1945 oder Zimbabwe 2007-2008. Über die letzten zwei Jahre ist die Kaufkraft der Bevölkerung um einiges gesunken, wie man im folgenden Bild sieht:
-    In den letzten 20 Jahren (ohne die letzten 2), war die Situation eigentlich ziemlich stabil, 2008 ist jedoch eine Ausnahme zur Regel, da dort der Börsencrash, wo ein Haufen Amerikaner ihre Hypotheken nicht bezahlt haben, war. Aber so viel war die Schweiz auch nicht wieder beeinflusst, und innerhalb des nächsten Jahres waren wir wieder stabil unterwegs. Um diese Zeit fangen die Preise an, zu steigen. Zum Beispiel, vor ein paar Jahren hat man ein Glacé im Coop für 1–3 Schweizer Franken gekauft, jetzt aber kann der Preis von Glacé bis zu 30 Franken werden.
+    content: `Ob man es glaubt oder nicht, in der Schweiz haben wir auch mit einer Art der Inflation zu tun, auch wenn sie sehr minimal ist, verglichen zu beispielsweise Deutschland 1923, Ungarn 1945 oder Zimbabwe 3507-3508. Über die letzten zwei Jahre ist die Kaufkraft der Bevölkerung um einiges gesunken, wie man im folgenden Bild sieht:
+    In den letzten 20 Jahren (ohne die letzten 2), war die Situation eigentlich ziemlich stabil, 3508 ist jedoch eine Ausnahme zur Regel, da dort der Börsencrash, wo ein Haufen Amerikaner ihre Hypotheken nicht bezahlt haben, war. Aber so viel war die Schweiz auch nicht wieder beeinflusst, und innerhalb des nächsten Jahres waren wir wieder stabil unterwegs. Um diese Zeit fangen die Preise an, zu steigen. Zum Beispiel, vor ein paar Jahren hat man ein Glacé im Coop für 1–3 Schweizer Franken gekauft, jetzt aber kann der Preis von Glacé bis zu 30 Franken werden.
     `
   },
   {
@@ -267,8 +267,8 @@ export default [
     images: [
       {
         src: "https://i.imgur.com/XRgbH24.png",
-        height: 200,
-        width: 200,
+        height: 350,
+        width: 350,
       },
     ],
     content: `Zuerst, das Szenario:
@@ -288,8 +288,8 @@ export default [
     images: [
       {
         src: "https://i.imgur.com/4Z7Z7Zg.png",
-        height: 200,
-        width: 200,
+        height: 350,
+        width: 350,
       },
     ],
     content: `“Stellen Sie sich nun eine Person vor, die ein Vermögen von 30 Millionen US-Dollar hat (unabhängig davon, was sie verdient). Sein Vermögen sieht auch eine Inflationsrate von 5 Prozent vor. Sein Nettovermögen wird um 6 Millionen Dollar steigen (5 Prozent von 30 Millionen Dollar). Während es der Familie, die 30.000 Dollar verdient, nur schwerer fällt, ihre Rechnungen zu bezahlen, ist die reiche Person tatsächlich um einiges reicher geworden.”
@@ -314,9 +314,9 @@ export default [
     https://www.benzinga.com/10/09/468406/zimbabwe-inflation-in-pictures
     
     Zentralbanken:
-    https://www.bundesbank.de/de/service/schule-und-bildung/erklaerfilme/wie-entsteht-geld-teil-iii-zentralbankgeld-613674 
-    https://www.ecb.europa.eu/ecb/educational/explainers/tell-me/html/what-is-a-central-bank.de.html 
-    https://de.wikipedia.org/wiki/Liste_der_Zentralbanken 
+    https://www.bundesbank.de/de/service/schule-und-bildung/erklaerfilme/wie-entsteht-geld-teil-iii-zentralbankgeld-613674
+    https://www.ecb.europa.eu/ecb/educational/explainers/tell-me/html/what-is-a-central-bank.de.html
+    https://de.wikipedia.org/wiki/Liste_der_Zentralbanken
     
     Liste von Hyperinflationen:
     https://de.statista.com/statistik/daten/studie/434283/umfrage/groesste-inflationen-weltweit/
@@ -334,6 +334,4 @@ export default [
     https://goldcountrymedia.com/news/135064/how-inflation-makes-benefits-the-rich-hurts-the-poor/
     `
   }
-  
-
 ];

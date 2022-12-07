@@ -7,7 +7,6 @@ import { useRouter } from "next/router";
 import articles from "../../components/db/articles";
 import NextAndBack from "../../components/NextAndBack";
 
-
 const renderImages = (images) => {
   return images.map((image) => {
     return (
@@ -35,7 +34,6 @@ export default function Article() {
     title = info.title;
     content = info.content;
     images = info.images;
-    console.log(images);
   }
 
   return (
