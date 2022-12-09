@@ -7,6 +7,8 @@ import { useRouter } from "next/router";
 import articles from "../../components/db/articles";
 import NextAndBack from "../../components/NextAndBack";
 
+let wasChanged = false;
+
 const renderImages = (images) => {
   return images.map((image) => {
     return (
@@ -19,18 +21,6 @@ const renderImages = (images) => {
       />
     );
   });
-};
-
-const renderContent = (content) => {
-  // TODO: Make first letter span
-  const firstLetter = content.charAt(0);
-  const rest = content.slice(1);
-  return (
-    <p className={styles.articleText}>
-      <span className={styles.firstLetter}>{firstLetter}</span>
-      {rest}
-    </p>
-  );
 };
 
 export default function Article() {
@@ -47,6 +37,9 @@ export default function Article() {
     content = info.content;
     images = info.images;
   }
+
+  const firstLetter = content.charAt(0);
+  const rest = content.slice(1);
 
   return (
     <div>
@@ -66,7 +59,10 @@ export default function Article() {
         <h1 className={styles.title}>{title}</h1>
         <br />
         <div className={styles.contentWrapper}>
-          <p className={styles.articleText}>{content}</p>
+          <p className={styles.articleText}>
+            <span className={styles.firstLetter}>{firstLetter}</span>
+              {rest}
+          </p>
         </div>
         <div className={styles.imagesWrapper}>
           {images ? renderImages(images) : null}

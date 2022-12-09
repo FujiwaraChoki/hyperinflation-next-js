@@ -74,7 +74,7 @@
   max-width: 300px;
   min-height: 200px;
   max-height: 200px;
-  transition: 0.3s;
+  transition: all 0.3s;
   border-style: solid;
 }
 
@@ -82,7 +82,7 @@
   -ms-transform: scale(1.05); /* IE 9 */
   -webkit-transform: scale(1.05); /* Safari 3-8 */
   transform: scale(1.05);
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 .card h2 {
@@ -296,11 +296,11 @@
 }
 
 .article10 {
-  border-color: rgb(1, 103, 1);
+  border-color: rgb(170, 92, 247);
 }
 
 .article11 {
-  border-color: rgb(1, 103, 1);
+  border-color: rgb(170, 92, 247);
 }
 
 .article12 {
@@ -378,7 +378,7 @@
 }
 
 .lander {
-  color: rgb(1, 103, 1);
+  color: rgb(197, 140, 255);
 }
 
 .bezug {
@@ -409,6 +409,4 @@
 
 .firstLetter {
   font-size: 3rem;
-  margin: 0;
-  padding: 0;
 }
