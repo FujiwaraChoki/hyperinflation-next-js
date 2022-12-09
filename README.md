@@ -40,3 +40,4 @@ npm run dev
 <p align="left" style="font-size: 1.4rem">
 Pull requests sind willkommen. Für größere Änderungen, erstelle bitte zuerst ein Issue, um zu diskutieren, was du ändern möchtest.
 </p>
+
