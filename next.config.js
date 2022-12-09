@@ -9,7 +9,8 @@ const nextConfig = {
       "upload.wikimedia.org",
       "static.dw.com",
       "i.postimg.cc",
-      "avatars.githubusercontent.com"
+      "avatars.githubusercontent.com",
+      "external-content.duckduckgo.com",
     ],
   },
 };

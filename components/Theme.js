@@ -3,16 +3,20 @@ import Image from "next/image";
 
 const Theme = () => {
   const enableDarkTheme = () => {
-    document.body.style.background = "#000000";
+    /*document.body.style.background = "#000000";
     document.body.style.color = "#ffffff";
-    document.body.style.transition = "0.3s";
+    document.body.style.transition = "0.3s";*/
+    document.body.classList.remove("light-theme");
+    document.body.classList.add("dark-theme");
   };
 
   // Method to disable dark theme
-  const disableDarkTheme = () => {
-    document.body.style.background = "#ffffff";
+  const enableLightTheme = () => {
+    /*document.body.style.background = "#ffffff";
     document.body.style.color = "#000000";
-    document.body.style.transition = "0.3s";
+    document.body.style.transition = "0.3s";*/
+    document.body.classList.remove("dark-theme");
+    document.body.classList.add("light-theme");
   };
   // Color Scheme component
   return (
@@ -29,7 +33,7 @@ const Theme = () => {
         title="Light Theme"
         className={styles.themeButton}
         id={"light-theme-button"}
-        onClick={disableDarkTheme}
+        onClick={enableLightTheme}
       >
         <span className={"fas fa-sun"}></span>
       </button>

@@ -21,6 +21,18 @@ const renderImages = (images) => {
   });
 };
 
+const renderContent = (content) => {
+  // TODO: Make first letter span
+  const firstLetter = content.charAt(0);
+  const rest = content.slice(1);
+  return (
+    <p className={styles.articleText}>
+      <span className={styles.firstLetter}>{firstLetter}</span>
+      {rest}
+    </p>
+  );
+};
+
 export default function Article() {
   let info = articles.find((article) => article.id === useRouter().query.id);
 

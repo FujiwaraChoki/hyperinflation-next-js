@@ -26,3 +26,15 @@ a {
     background: black;
   }
 }
+
+.dark-theme {
+  background: #000000;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.light-theme {
+  background: #fafafa;
+  color: #000;
+  transition: 0.3s;
+}

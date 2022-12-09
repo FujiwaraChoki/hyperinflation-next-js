@@ -4,6 +4,7 @@ export default [
     id_num: 1,
     id: "was-ist-eine-inflation",
     title: "Was ist eine Inflation?",
+    description: "Es werden die Fragen gestellt: Was ist eine Inflation? Wie entsteht eine Inflation?",
     images: [
       {
         src: "https://i.imgur.com/1WT8Yjb.jpeg",
@@ -27,6 +28,7 @@ export default [
     id_num: 2,
     id: "die-hyperinflation-von-1923",
     title: "Die Hyperinflation von 1923",
+    description: "Das eigentliche Thema dieser Webseite informationsreich zusammengefasst.",
     images: [
       {
         src: "https://i.imgur.com/Oo7bf9g.jpeg",
@@ -56,6 +58,7 @@ export default [
     id_num: 3,
     id: "deflation",
     title: "Deflation",
+    description: "Erklärung von Deflation und deren Ursachen und Folgen.",
     images: [
       {
         src: "https://i.imgur.com/hkY6gyd.jpg",
@@ -71,6 +74,7 @@ export default [
     id_num: 4,
     id: "der-erste-weltkrieg",
     title: "Der erste Weltkrieg",
+    description: "Der erste Weltkrieg, seine Ursachen und seine Folgen.",
     images: [
       {
         src: "https://i.postimg.cc/s2rsK2KC/Screenshot-2022-12-02-103131.png",
@@ -92,6 +96,7 @@ export default [
     id_num: 5,
     id: "die-weimarer-republik",
     title: "Die Weimarer Republik",
+    description: "Eine Zusammenfassung der Ereignisse der Weimarer Republik.",
     images: [
       {
         src: "https://www.planet-wissen.de/geschichte/deutsche_geschichte/weimarer_republik/weimarer-republik-gruendung-100~_v-gseagaleriexl.jpg",
@@ -112,8 +117,13 @@ export default [
     id_num: 6,
     id: "zentralbank",
     title: "Die Zentralbank",
+    description: "Die Zentralbank vom Deutschen Reich erklärt.",
     images: [
-
+      {
+        src: "https://i.postimg.cc/15kqjnzj/Screenshot-2022-12-09-085003.png",
+        height: 350,
+        width: 350,
+      }
     ],
     content: `Eine Zentralbank ist eine öffentliche Institution. Die Zentralbank kontrolliert also die im Umlauf befindliche Geldmenge. Preisstabilität ist das Hauptziel der Zentralbanken. Sie wollen also eine Inflation oder Deflation verhindern. Jedes Land, das eine eigene Währung hat, hat auch eine eigene Zentralbank. 
 
@@ -133,6 +143,7 @@ export default [
     id_num: 7,
     id: "leitzins",
     title: "Der Leitzins",
+    description: "Was der Leitzins ist und wie er funktioniert",
     images: [],
     content: `Wie bereits gesagt kann eine Geschäftsbank Geld bei einer Zentralbank ausleihen, aber nicht kostenlos. Die Zentralbank eines Landes legt den Zinssatz fest, zu dem sich die Geschäftsbanken Liquidität verschaffen können, diesen Zins nennt man den Leitzins. Er bestimmt also, zu welchen Konditionen sich die Banken bei der Zentralbank Geld leihen können. Leitzinsen sind massgebliche Instrumente der Geldpolitik, weil sie die Situation auf dem Geldmarkt wesentlich beeinflussen. Der Leitzins wirkt sich, durch die Geschäftsbanken, mittelbar auch auf das alltägliche Leben aus. Zum Beispiel hängen von ihm die Höhe der Zinserträge von Spareinlagen ebenso ab wie die Zinsrate bei Krediten. Dadurch haben Änderungen der Leitzinsen Auswirkungen auf die Kosten von Geldanlagen und Krediten. Die Folgen betreffen Wirtschaftswachstum, Konsumklima und die Arbeitslosenquote. Wenn die Zentralbank den Leitzins ändert, hat das Einfluss auf die Geldmenge und die ökonomische Entwicklung im gesamten Wirtschaftsraum. Die Kapitalmarktzinsen erhöhen sich, wenn sich der Leitzins erhöht. Wenn also zum Beispiel die Schweizer Nationalbank den Leitzins erhöht, dann wird es automatisch für jeden Kapitalnehmer bei der Geschäftsbank teurer, ein Kapital aufzunehmen. Die Erhöhung des Leitzinses dient zur Bekämpfung einer Inflation. Die Chance auf eine Inflation wird also vermindert, wenn die Zentralbank den Leitzins erhöht. Eine Senkung der Leitzinsen soll zur Erholung einer schwachen Konjunktur führen. Eine Konjunktur umfasst die meist regelmässigen Schwankungen bei Produktion, Beschäftigung und Preisen. Aus diesen Schwankungen lassen sich schließlich sogenannte Konjunkturzyklen ablesen. Sie geben an, ob sich ein Land wirtschaftlich im Auf- oder Abschwung befindet. Die Korrekturen des Leitzinses haben auch eine Wirkung auf die Stärke der eigenen Währung im Vergleich zu ausländischen Währungen. Die Leitzinssenkung drückt zugleich den Preis der eigenen Währung – und umgekehrt. Auf diese Weise steuern Zentralbanken den Import und Export.
     Auswirkungen eines hohen Leitzinses: 
@@ -147,6 +158,7 @@ export default [
     id_num: 8,
     id: "deutsche-mark",
     title: "Deutsche Mark",
+    description: "Die Währung vom Deutschen Reich, die den Reichsmark ablöste.",
     images: [
       {
         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/100_DM_Serie4_Vorderseite.jpg/297px-100_DM_Serie4_Vorderseite.jpg",
@@ -163,6 +175,7 @@ export default [
     id_num: 9,
     id: "reichsmark",
     title: "Reichsmark",
+    description: "Die Währung des Deutschen Reiches von 1871 bis 1948",
     images: [
       {
         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/10_Reichsmark_1924-10-11.jpg/1024px-10_Reichsmark_1924-10-11.jpg",
@@ -179,6 +192,7 @@ export default [
     id_num: 10,
     id: "ungarn",
     title: "Vergleich mit Ungarn",
+    description: "Hyperinflation 1923 im Vergleich mit Ungarn",
     images: [
       {
         src: "https://static.dw.com/image/61137417_303.jpg",
@@ -196,6 +210,7 @@ export default [
     id_num: 11,
     id: "zimbabwe",
     title: "Vergleich mit Zimbabwe",
+    description: "Hyperinflation 1923 im Vergleich zu Zimbabwe",
     images: [
       {
         src: "https://i.postimg.cc/bvvW3dds/zimb.png",
@@ -212,6 +227,7 @@ export default [
     id_num: 12,
     id: "inflation-2022",
     title: "Inflation 2022",
+    description: "Eine Beschreibung der Inflation im Jahre 2022.",
     images: [
       {
         src: "https://upload.wikimedia.org/wikipedia/commons/2/20/Inflation_rate%2C_United_States_and_Eurozone%2C_January_2016_through_June_2022.png",
@@ -249,11 +265,12 @@ export default [
     id_num: 13,
     id: "schweiz",
     title: "Situation in der Schweiz",
+    description: "Die Situation in der Schweiz, welche die laufende Inflation betrifft.",
     images: [
       {
-        src: "https://upload.wikimedia.org/wikipedia/commons/2/20/Inflation_rate%2C_United_States_and_Eurozone%2C_January_2016_through_June_2022.png",
+        src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdnext.credit-suisse.com%2Fcorporate%2Fde%2Farticles%2Fnews-and-expertise%2Finflation-a-loyal-swiss-ally-201706%2F_jcr_content%2Fcontent%2Fimage_0%2Fimage.revampimg.1920.medium.png%2Finflation-a-loyal-swiss-ally-chart-1-de.png&f=1&nofb=1&ipt=3dfc9a6c65260e404c03977fec7bb7ce92b1d2363f4c880b2835fe79208c6efa&ipo=images",
         height: 350,
-        width: 350,
+        width: 800,
       },
     ],
     content: `Ob man es glaubt oder nicht, in der Schweiz haben wir auch mit einer Art der Inflation zu tun, auch wenn sie sehr minimal ist, verglichen zu beispielsweise Deutschland 1923, Ungarn 1945 oder Zimbabwe 3507-3508. Über die letzten zwei Jahre ist die Kaufkraft der Bevölkerung um einiges gesunken, wie man im folgenden Bild sieht:
@@ -264,6 +281,7 @@ export default [
     id_num: 14,
     id: "loesung",
     title: "Lösungsansatz",
+    description: "Der Lösungsansatz für die Hyperinflation von 1923 in Deutschland.",
     images: [
       {
         src: "https://i.imgur.com/XRgbH24.png",
@@ -285,6 +303,7 @@ export default [
     id_num: 15,
     id: "reich",
     title: "Arm und Reich",
+    description: "Die Reichen werden immer reicher, die Armen bleiben arm.",
     images: [
       {
         src: "https://i.imgur.com/4Z7Z7Zg.png",
@@ -302,6 +321,7 @@ export default [
     id_num: 16,
     id: "quellen",
     title: "Quellen",
+    description: "Die Quellen, welche für die Erstellung dieser Webseite verwendet wurden.",
     content: `Was ist eine Hyperinflation: 
     https://www.bpb.de/kurz-knapp/lexika/lexikon-der-wirtschaft/19723/inflation/#:~:text=%C3%9Cbersteigt%20die%20gesamtwirtschaftliche%20G%C3%BCternachfrage%20das,die%20Nachfrage%20nach%20G%C3%BCtern%20an. 
     

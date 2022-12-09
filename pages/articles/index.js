@@ -8,11 +8,7 @@ import Image from "next/image";
 import { useEffect } from "react";
 
 export default function Home() {
-  // How to split a string and replace the last 30 characters with "..."
-  const truncate = (str) => {
-    return str.length > 40 ? str.substring(0, 80) + "..." : str;
-  };
-
+  // Split string by number of words
   useEffect(() => {
     const body = document.querySelector("body");
     // Unhide Overflow
@@ -72,7 +68,7 @@ export default function Home() {
       <Nav></Nav>
       <Theme></Theme>
       <main className={styles.main}>
-        <h1 className={styles.title}>Eine Zusamenfassung der wichtigsten Begriffe und Ereignisse der Hyperinflation und wie es dazu kam</h1>
+        <h1 className={styles.title}>Artikel</h1>
         <div className={styles.pagecontainer}>
         <div className={styles.listcontainer}>
           <h2>Legende</h2>
@@ -94,7 +90,7 @@ export default function Home() {
               className={`${styles.card} ${getClass(article)}`}
             >
               <h3>{article["title"]}</h3>
-              <p>{truncate(article["content"])}</p>
+              <p>{article["description"]}</p>
 
             </Link>
           ))}
