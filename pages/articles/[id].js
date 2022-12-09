@@ -60,7 +60,7 @@ export default function Article() {
           {images ? renderImages(images) : null}
         </div>
       </main>
-      <NextAndBack next={id_num + 1} back={id_num - 1}></NextAndBack>
+      <NextAndBack next={id_num} back={id_num}></NextAndBack>
     </div>
   );
 }

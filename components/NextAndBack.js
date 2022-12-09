@@ -2,62 +2,23 @@
 import React from "react";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
+import articles from "./db/articles.js";
 
 const getNextArticleName = (id) => {
-  switch (id) {
-    case 1:
-      return "was-ist-eine-inflation";
-    case 2:
-      return "der-erste-weltkrieg";
-    case 3:
-      return "die-hyperinflation-von-1923";
-    case 4:
-      return "wie-loest-man-eine-hyperinflation";
-    case 5:
-      return "die-weimarer-republik";
-    case 6:
-      return "deutsche-mark";
-    case 7:
-      return "reichsmark";
-    case 8:
-      return "vergleich-zu-anderen-hyperinflationen";
-    case 9:
-      return "inflation-2022";
-    case 10:
-      return "deflation";
-    case 11:
-      if (typeof window !== "undefined") {
-        return "https://hyperinflation-next-js.vercel.app/quiz";
-      }
-    default:
-      return "";
+  const nextArticle = articles.find((article) => article.id_num === id + 1);
+  if (nextArticle === undefined) {
+    return "https://hyperinflation-next-js.vercel.app/quiz";
+  } else {
+    return nextArticle.id;
   }
 };
 
 const getPreviousArticleName = (id) => {
-  switch (id) {
-    case 0:
-      return "https://hyperinflation-next-js.vercel.app/articles/";
-    case 1:
-      return "was-ist-eine-inflation";
-    case 2:
-      return "der-erste-weltkrieg";
-    case 3:
-      return "die-hyperinflation-von-1923";
-    case 4:
-      return "wie-loest-man-eine-hyperinflation";
-    case 5:
-      return "die-weimarer-republik";
-    case 6:
-      return "deutsche-mark";
-    case 7:
-      return "reichsmark";
-    case 8:
-      return "vergleich-zu-anderen-hyperinflationen";
-    case 9:
-      return "inflation-2022";
-    default:
-      return "";
+  const previousArticle = articles.find((article) => article.id_num === id - 1);
+  if (previousArticle === undefined) {
+    return "https://hyperinflation-next-js.vercel.app/articles";
+  } else {
+    return previousArticle.id;
   }
 };
 
