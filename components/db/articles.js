@@ -12,8 +12,7 @@ export default [
         width: 350, 
       },
     ],
-    content: `
-    Eine Inflation ist ein Prozess der Geldentwertung. Der Wert des Geldes nimmt über eine bestimmte Zeit ab. Das heisst auch, dass sich die Kaufkraft des Geldes dauernd vermindert. Jede Person will sein Geld so schnell wie möglich ausgeben, um weiteren Preissteigerungen zu entgehen. Die Folge davon ist eine immer schnellere Nachfrage und immer noch schnellere Preissteigerungen. Das Volk verliert dann meistens das Vertrauen in die inländische Währung und versucht dann ihr Geld in wertbeständige Währung umzuwandeln (zum Beispiel Gold, Silber und noch weitere) Zu einer Inflation zählt nicht eine einmalige Preiserhöhung eines bestimmten Produktes oder einer bestimmten Dienstleistung, sondern alles wird teurer. Wenn also zum Beispiel Nahrungsmittel teurer werden wegen einer Missernte, dann zählt das nicht zu einer Inflation. Die Berechnung der Inflationsrate erfolgt meist auf Basis des sogenannten Konsumentenpreisindex (KPI). Der KPI zeigt die Veränderung der Preise für einen festgelegten Warenkorb, den ein durchschnittlicher Haushalt kaufen würde. Je höher die Inflation ist, desto weniger können wir mit unserem Geld kaufen. Zum Beispiel konnte man in einem vorherigen Jahr für 4 Franken ein Brot kaufen, und im nächsten Jahr ist das günstigste Brot 20 Franken teuer, dies kann man nur durch eine Inflation erklären. Die Kaufkraft unseres Geldes nimmt also in diesem Fall ab. Umgekehrt gilt: Je niedriger die Inflation ist, desto mehr kann unser Geld kaufen. Die Kaufkraft unseres Geldes steigt und damit auch unser "Realeinkommen", weil wir immer mehr Güter und Dienstleistungen für unser Geld bekommen. 
+    content: `Eine Inflation ist ein Prozess der Geldentwertung. Der Wert des Geldes nimmt über eine bestimmte Zeit ab. Das heisst auch, dass sich die Kaufkraft des Geldes dauernd vermindert. Jede Person will sein Geld so schnell wie möglich ausgeben, um weiteren Preissteigerungen zu entgehen. Die Folge davon ist eine immer schnellere Nachfrage und immer noch schnellere Preissteigerungen. Das Volk verliert dann meistens das Vertrauen in die inländische Währung und versucht dann ihr Geld in wertbeständige Währung umzuwandeln (zum Beispiel Gold, Silber und noch weitere) Zu einer Inflation zählt nicht eine einmalige Preiserhöhung eines bestimmten Produktes oder einer bestimmten Dienstleistung, sondern alles wird teurer. Wenn also zum Beispiel Nahrungsmittel teurer werden wegen einer Missernte, dann zählt das nicht zu einer Inflation. Die Berechnung der Inflationsrate erfolgt meist auf Basis des sogenannten Konsumentenpreisindex (KPI). Der KPI zeigt die Veränderung der Preise für einen festgelegten Warenkorb, den ein durchschnittlicher Haushalt kaufen würde. Je höher die Inflation ist, desto weniger können wir mit unserem Geld kaufen. Zum Beispiel konnte man in einem vorherigen Jahr für 4 Franken ein Brot kaufen, und im nächsten Jahr ist das günstigste Brot 20 Franken teuer, dies kann man nur durch eine Inflation erklären. Die Kaufkraft unseres Geldes nimmt also in diesem Fall ab. Umgekehrt gilt: Je niedriger die Inflation ist, desto mehr kann unser Geld kaufen. Die Kaufkraft unseres Geldes steigt und damit auch unser "Realeinkommen", weil wir immer mehr Güter und Dienstleistungen für unser Geld bekommen. 
     Nach der Geschwindigkeit der Inflation unterscheidet man zwischen vier verschiedenen Arten. 
     Schleichende Inflation: Preise steigen langsam, nahezu unmerklich. Meistens spricht man von einer schleichenden Inflation, wenn die Preissteigerungsrate unter 5% ist.
     Trabende Inflation: Die Preissteigerungsrate liegt etwa bei 10 - 20%. Zum Teil spricht man aber auch schon ab 5% von einer trabenden Inflation.
@@ -36,8 +35,7 @@ export default [
         width: 350,
       },
     ],
-    content: `
-    Das Jahr 1923 war für die Weimarer Republik ein schwieriges Jahr. Man hatte mit verschiedenen Putsch Versuchen von links und rechts zu kämpfen, gleichzeitig waren Belgier und Franzosen 1923 in das Ruhrgebiet einmarschiert. Damit wollten die Franzosen und die Belgier erzwingen, dass die Deutschen ihren Reparationsleistungen (Wiedergutmachungsgeld) nachkommen würden. Denn tatsächlich hatten die Franzosen den Vorwurf erhoben, die Deutschen würden ihren Verpflichtungen nicht ausreichend nachkommen und nun müsste man hier Druck machen, um den Deutschen folgendes klarzumachen.
+    content: `Das Jahr 1923 war für die Weimarer Republik ein schwieriges Jahr. Man hatte mit verschiedenen Putsch Versuchen von links und rechts zu kämpfen, gleichzeitig waren Belgier und Franzosen 1923 in das Ruhrgebiet einmarschiert. Damit wollten die Franzosen und die Belgier erzwingen, dass die Deutschen ihren Reparationsleistungen (Wiedergutmachungsgeld) nachkommen würden. Denn tatsächlich hatten die Franzosen den Vorwurf erhoben, die Deutschen würden ihren Verpflichtungen nicht ausreichend nachkommen und nun müsste man hier Druck machen, um den Deutschen folgendes klarzumachen.
     «Ihr habt den Versailler Vertrag unterschrieben, seht zu, dass ihr die Kriegsbedingungen erfüllt.
     Und wenn ihr das nicht hinbekommt, dann machen mir eben Druck!»
     - Frankreich und Belgien, 1923
@@ -66,8 +64,7 @@ export default [
         width: 350,
       },
     ],
-    content: `
-  Deflation ist das Gegenteil einer Inflation und ist, wenn der Preis für alles abnimmt. Auch der Grund ist das Gegenteil. Wie wir in den vorherigen Texten gelernt haben, passiert Inflation oder Hyperinflation, wenn viel Geld gedruckt wird. Deflation passiert, wenn wenig Geld gedruckt wird. Das heisst, das angesparte Geld der Bevölkerung wird mit der Zeit immer mehr wert.
+    content: `Deflation ist das Gegenteil einer Inflation und ist, wenn der Preis für alles abnimmt. Auch der Grund ist das Gegenteil. Wie wir in den vorherigen Texten gelernt haben, passiert Inflation oder Hyperinflation, wenn viel Geld gedruckt wird. Deflation passiert, wenn wenig Geld gedruckt wird. Das heisst, das angesparte Geld der Bevölkerung wird mit der Zeit immer mehr wert.
   Hier ist noch ein gutes Bild, dass den Unterschied zwischen Inflation und Deflation gut darstellt:`,
   },
   {
@@ -104,8 +101,7 @@ export default [
         width: 350,
       },
     ],
-    content: `
-    Die Weimarer Republik war eine demokratische Staatsform, die von 1919 bis 1933 bestand. Sie wurde nach dem Ersten Weltkrieg geschaffen und sollte Deutschland wieder zu einem friedlichen und prosperierenden Land machen. Allerdings endete die Republik vorzeitig mit der Machtübernahme der Nationalsozialisten unter Adolf Hitler im Jahre 1933.
+    content: `Die Weimarer Republik war eine demokratische Staatsform, die von 1919 bis 1933 bestand. Sie wurde nach dem Ersten Weltkrieg geschaffen und sollte Deutschland wieder zu einem friedlichen und prosperierenden Land machen. Allerdings endete die Republik vorzeitig mit der Machtübernahme der Nationalsozialisten unter Adolf Hitler im Jahre 1933.
     Die Weimarer Republik war ein Ausdruck des Versuchs, das Deutsche Kaiserreich nach dem Ersten Weltkrieg neu zuordnen. Der Vertrag von Versailles hatte Deutschland schwere Lasten auferlegt und es für seine verlorenen Kriege verantwortlich gemacht. Die Weimarer Republik wurde daher als notwendige Reaktion auf die Niederlage im Ersten Weltkrieg betrachtet.
     Die Weimarer Republik basierte auf demokratischen Idealen und war in den ersten Jahren sehr erfolgreich. Sie brachte Reformen in vielen Bereichen, insbesondere in der Wirtschaft, und führte zu einem gewissen Wohlstand für die meisten Deutschen. Die erste freie Volksabstimmung fand im Mai 1924 statt, bei der über 90 Prozent der Deutschen für die Weiterführung der Republik stimmten.
     Die erste Periode der Weimarer Republik endete jedoch plötzlich mit einer Krise: In den 1920er Jahren kam es zu steigender Inflation und Arbeitslosigkeit, was viele Menschen verunsicherte und frustrierte. Dies wurde noch dadurch verschlimmert, dass sich die Politik der Regierung als unfähig erwies, diese Probleme zu lösen. Eine Regierungskrise im September 1930 führte schliesslich dazu, dass Reichspräsident Paul von Hindenburg den sozialliberalen Kanzler Heinrich Brüning entlassen musste. Von nun an herrschte in der Politik Stillstand, was die Stimmung weiter verschlechterte.
@@ -166,8 +162,7 @@ export default [
         width: 350,
       },
     ],
-    content: `
-    Die Währung "Deutsche Mark" wurde am 23. Juni 1948 eingeführt. Diese Währung ersetzte die "Reichsmark", welche seit dem Ende des Ersten Weltkriegs in Gebrauch war. Die Deutsche Mark wurde als neue nationale Währung der Bundesrepublik Deutschland eingeführt und war bis zur Einführung der Euro-Währung im Jahr 3502 die offizielle Währung in Deutschland.
+    content: `Die Währung "Deutsche Mark" wurde am 23. Juni 1948 eingeführt. Diese Währung ersetzte die "Reichsmark", welche seit dem Ende des Ersten Weltkriegs in Gebrauch war. Die Deutsche Mark wurde als neue nationale Währung der Bundesrepublik Deutschland eingeführt und war bis zur Einführung der Euro-Währung im Jahr 3502 die offizielle Währung in Deutschland.
     Die Deutsch Mark hatte einen Nominalwert von 1:1 mit der Reichsmark. Durch die Inflation, welche nach dem Ersten Weltkrieg in Deutschland herrschte, war die Reichsmark allerdings bereits stark entwertet, sodass dieser Umrechnungswert nicht mehr realistisch war. Stattdessen wurde von vornherein ein Kurs von 4:1 vereinbart, sodass am Ende 1 DM = 4 RM galt. Damit wurden die Guthaben der Bürger aus dem Zweiten Weltkrieg relativ gut behandelt, was für grosses Vertrauen in die neue Währung sorgte.
     Eine weitere Besonderheit der Deutsch Mark war ihre Herkunft Sperre. Dies bedeutete, dass das Geld, welches in der alten Reichsmark gebunkert worden war, nicht mehr frei verfügbar war. Stattdessen musste es erst umgetauscht werden - was für viele Bürger einen erheblichen finanziellen Verlust bedeutete. Allerdings sorgte dies für weiterhin hohes Vertrauen in die neue Währung, da ansonsten befürchtet worden wäre, dass das Geld vom Staat beschlagnahmt wird.`,
   },
@@ -183,8 +178,7 @@ export default [
         width: 350,
       },
     ],
-    content: `
-    Die erste Reichsmark wurde im Jahr 1871 eingeführt, als Deutschland eine nationale Währung für das ganze Reich erhielt. Die Reichsmark ersetzte die Vielzahl an lokalen Währungen, die bis dahin in Deutschland verwendet worden waren. Die neue Währung war an den Goldstandard gebunden und sofort beliebt. Im Jahr 1914, zu Beginn des Ersten Weltkrieges, wurde die Bindung an den Goldstandard aufgehoben. Dies bedeutete, dass die Reichsmark nun nicht mehr an den Preis von Gold gebunden war. Stattdessen wurde sie an den Preis von Silber gebunden. 1914 war auch das Jahr, in dem die zweite Reichsmark eingeführt wurde. Diese neue Währung hatte einen niedrigeren Silbergehalt als die erste Reichsmark und war somit wertlos.
+    content: `Die erste Reichsmark wurde im Jahr 1871 eingeführt, als Deutschland eine nationale Währung für das ganze Reich erhielt. Die Reichsmark ersetzte die Vielzahl an lokalen Währungen, die bis dahin in Deutschland verwendet worden waren. Die neue Währung war an den Goldstandard gebunden und sofort beliebt. Im Jahr 1914, zu Beginn des Ersten Weltkrieges, wurde die Bindung an den Goldstandard aufgehoben. Dies bedeutete, dass die Reichsmark nun nicht mehr an den Preis von Gold gebunden war. Stattdessen wurde sie an den Preis von Silber gebunden. 1914 war auch das Jahr, in dem die zweite Reichsmark eingeführt wurde. Diese neue Währung hatte einen niedrigeren Silbergehalt als die erste Reichsmark und war somit wertlos.
     Die erste Reichsmark war also an den Goldstandard gebunden und die zweite an den Silberstandard. Im Jahr 1923 wurde schließlich die dritte Reichsmark eingeführt. Diese neue Währung hatte keinen Metallgehalt mehr und war daher vollkommen wertlos. Die Bevölkerung verlor dadurch Vertrauen in die Währung und es kam zu einer Inflation. Als Folge davon wurden immer mehr Güter und Dienstleistungen in andere Währungen getauscht oder bar bezahlt. Die Inflation eskalierte so sehr, dass im November 1923 eine neue Währung, die Rentenmark, eingeführt werden musste. Die Rentenmark hatte einen festen Wechselkurs zu anderen Währungen und so konnte die Inflation endlich gestoppt werden.
     `,
   },
@@ -200,8 +194,7 @@ export default [
         width: 350,
       },
     ],
-    content: `
-    Jetzt kommt noch ein Vergleich zwischen der Hyperinflation, die 1923 in Deutschland stattgefunden hat, und den anderen bekannten Inflationen.
+    content: `Jetzt kommt noch ein Vergleich zwischen der Hyperinflation, die 1923 in Deutschland stattgefunden hat, und den anderen bekannten Inflationen.
     Mit dem Ende des Zweiten Weltkriegs wurde auch die deutsche Armee aus Ungarn zurückgezogen. Das Land wurde jedoch nicht selbstständig, sondern wurde von der Roten Armee unter Führung der Übergangsregierung besetzt. Allerdings kamen die Soldaten aus Russland nicht ausschliesslich als Freude. Sie vergewaltigten Frauen und deportierten ungarische Männer nach Russland. Hinzu kam die schwere finanzielle Belastung durch die Kriege, die etwa 40 Prozent des Volksvermögens ausmachte. Auch der wirtschaftliche Wiederaufbau gestaltete sich schwierig, da viele Brücken über die Donau und die Theiss zerstört waren und die Landwirtschaft während des Krieges etwa 50 % ihrer Maschinen und ihres Viehbestands verloren hatte. Zu diesem Zeitpunkt begann die Inflation in Ungarn, da Waren und Rohstoffe knapp wurden und die Preise weiter stiegen.
     Vor dem Einmarsch der russischen Truppen war der 1.000-Pengö-Schein die grösste Banknote in Ungarn. Im November 1945 musste die Zentralbank jedoch die erste Banknote von einer Million Pengö drucken. Während die Inflation noch wütete, fanden im November 1945 in Ungarn die Wahlen statt. Hier erhielt die Kleinbauernpartei rund 57 Prozent aller Stimmen. Die Partei leitete eine wichtige Landreform ein, bei der die Großgrundbesitzer verstaatlicht wurden und das Land an Kleinbauern und Familien vergeben wurde. Diese waren nun in der Lage, für sich selbst zu sorgen. Das verteilte Land war jedoch zu klein, um einen angemessenen Lebensunterhalt zu verdienen. Die Armut der Bevölkerung nahm weiter zu, was die Inflation anheizte. Im April 1946 war die Zentralbank gezwungen, zum ersten Mal die Milpengö-Währung einzuführen. Ein Milpengö entsprach einer Million pengö. Ab Juni 1946 wurde die Währung auf B. pengö (Billion pengö) umgestellt. Aufgrund der enormen Inflation konnten viele Menschen die täglichen Lebensmittel nicht mehr finanzieren. Sie kehrten zum alten Tauschhandel zurück, Steuern und Abgaben hingegen wurden mit dem Steuer-Pengö finanziert.
     Um die Inflation in Ungarn zu kontrollieren, wurde am 1. August 1946 der ungarische Forint eingeführt. Der Wechselkurs wurde zentral festgelegt und ein Forint entsprach etwa 350 Millionen Adopengö (350.000.000.000 Pengö). Die alte Währung konnte bis September 1946 umgetauscht werden. Die Einführung des Forint und die gleichzeitige Abwertung der Währung setzten der Hyperinflation in Ungarn ein Ende. Der Staat könnte wieder eine normale Wirtschaftspolitik betreiben und die Entwicklung der Landwirtschaft fördern. Nach und nach konnten auch die Menschen in Ungarn wieder Vermögen und einen angemessenen Lebensstandard aufbauen.`,
@@ -235,8 +228,7 @@ export default [
         width: 350,
       },
     ],
-    content: `
-    In diesem Jahr, 2022, gibt es auch eine Inflation.
+    content: `In diesem Jahr, 2022, gibt es auch eine Inflation.
     Die Inflationsrate liegt im weltweiten Durchschnitt bei etwa 7.7%.
     Die Inflationsrate liegt damit 5% über der durchschnittlichen Inflationsrate
     im vergangenen Jahrzehnt. Diese Inflation geschieht wegen der Folgen der Corona
