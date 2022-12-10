@@ -78,6 +78,23 @@
   border-style: solid;
 }
 
+.quelle {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.quelleLink {
+  color: #036cff;
+  text-decoration: underline;
+  transition: 0.2s;
+}
+
+.quelleLink:hover {
+  text-decoration: none;
+  transition: 0.2s;
+}
+
 .card:hover {
   -ms-transform: scale(1.05); /* IE 9 */
   -webkit-transform: scale(1.05); /* Safari 3-8 */
@@ -256,7 +273,6 @@
   cursor: pointer;
   border: 2px solid #ffffff;
   transition: all 0.2s;
-
 }
 
 .article1 {
@@ -323,7 +339,6 @@
   /*Implement color*/
   border-color: rgb(0, 255, 170);
 }
-
 
 .pagecontainer {
   display: flex;
@@ -397,7 +412,6 @@
   display: none;
 }
 
-
 .imagesWrapper {
   display: flex;
   justify-content: space-between;
@@ -409,5 +423,4 @@
 
 .firstLetter {
   font-size: 3rem;
-  margin-right: 0.5rem;
 }

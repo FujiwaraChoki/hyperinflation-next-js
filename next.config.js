@@ -11,6 +11,7 @@ const nextConfig = {
       "i.postimg.cc",
       "avatars.githubusercontent.com",
       "external-content.duckduckgo.com",
+      "media1.faz.net",
     ],
   },
 };

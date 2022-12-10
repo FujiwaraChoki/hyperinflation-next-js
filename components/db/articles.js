@@ -4,12 +4,13 @@ export default [
     id_num: 1,
     id: "was-ist-eine-inflation",
     title: "Was ist eine Inflation?",
-    description: "Es werden die Fragen gestellt: Was ist eine Inflation? Wie entsteht eine Inflation?",
+    description:
+      "Es werden die Fragen gestellt: Was ist eine Inflation? Wie entsteht eine Inflation?",
     images: [
       {
         src: "https://i.imgur.com/1WT8Yjb.jpeg",
         height: 350,
-        width: 350, 
+        width: 400,
       },
     ],
     content: `Eine Inflation ist ein Prozess der Geldentwertung. Der Wert des Geldes nimmt über eine bestimmte Zeit ab. Das heisst auch, dass sich die Kaufkraft des Geldes dauernd vermindert. Jede Person will sein Geld so schnell wie möglich ausgeben, um weiteren Preissteigerungen zu entgehen. Die Folge davon ist eine immer schnellere Nachfrage und immer noch schnellere Preissteigerungen. Das Volk verliert dann meistens das Vertrauen in die inländische Währung und versucht dann ihr Geld in wertbeständige Währung umzuwandeln (zum Beispiel Gold, Silber und noch weitere) Zu einer Inflation zählt nicht eine einmalige Preiserhöhung eines bestimmten Produktes oder einer bestimmten Dienstleistung, sondern alles wird teurer. Wenn also zum Beispiel Nahrungsmittel teurer werden wegen einer Missernte, dann zählt das nicht zu einer Inflation. Die Berechnung der Inflationsrate erfolgt meist auf Basis des sogenannten Konsumentenpreisindex (KPI). Der KPI zeigt die Veränderung der Preise für einen festgelegten Warenkorb, den ein durchschnittlicher Haushalt kaufen würde. Je höher die Inflation ist, desto weniger können wir mit unserem Geld kaufen. Zum Beispiel konnte man in einem vorherigen Jahr für 4 Franken ein Brot kaufen, und im nächsten Jahr ist das günstigste Brot 20 Franken teuer, dies kann man nur durch eine Inflation erklären. Die Kaufkraft unseres Geldes nimmt also in diesem Fall ab. Umgekehrt gilt: Je niedriger die Inflation ist, desto mehr kann unser Geld kaufen. Die Kaufkraft unseres Geldes steigt und damit auch unser "Realeinkommen", weil wir immer mehr Güter und Dienstleistungen für unser Geld bekommen. 
@@ -27,12 +28,13 @@ export default [
     id_num: 2,
     id: "die-hyperinflation-von-1923",
     title: "Die Hyperinflation von 1923",
-    description: "Das eigentliche Thema dieser Webseite informationsreich zusammengefasst.",
+    description:
+      "Das eigentliche Thema dieser Webseite informationsreich zusammengefasst.",
     images: [
       {
         src: "https://i.imgur.com/Oo7bf9g.jpeg",
         height: 350,
-        width: 350,
+        width: 500,
       },
     ],
     content: `Das Jahr 1923 war für die Weimarer Republik ein schwieriges Jahr. Man hatte mit verschiedenen Putsch Versuchen von links und rechts zu kämpfen, gleichzeitig waren Belgier und Franzosen 1923 in das Ruhrgebiet einmarschiert. Damit wollten die Franzosen und die Belgier erzwingen, dass die Deutschen ihren Reparationsleistungen (Wiedergutmachungsgeld) nachkommen würden. Denn tatsächlich hatten die Franzosen den Vorwurf erhoben, die Deutschen würden ihren Verpflichtungen nicht ausreichend nachkommen und nun müsste man hier Druck machen, um den Deutschen folgendes klarzumachen.
@@ -60,8 +62,8 @@ export default [
     images: [
       {
         src: "https://i.imgur.com/hkY6gyd.jpg",
-        height: 350,
-        width: 350,
+        height: 360,
+        width: 500,
       },
     ],
     content: `Deflation ist das Gegenteil einer Inflation und ist, wenn der Preis für alles abnimmt. Auch der Grund ist das Gegenteil. Wie wir in den vorherigen Texten gelernt haben, passiert Inflation oder Hyperinflation, wenn viel Geld gedruckt wird. Deflation passiert, wenn wenig Geld gedruckt wird. Das heisst, das angesparte Geld der Bevölkerung wird mit der Zeit immer mehr wert.
@@ -76,7 +78,7 @@ export default [
       {
         src: "https://i.postimg.cc/s2rsK2KC/Screenshot-2022-12-02-103131.png",
         height: 350,
-        width: 350,
+        width: 500,
       },
     ],
     content: `Der erste Weltkrieg begann am 28. Juli 1914.
@@ -97,8 +99,8 @@ export default [
     images: [
       {
         src: "https://www.planet-wissen.de/geschichte/deutsche_geschichte/weimarer_republik/weimarer-republik-gruendung-100~_v-gseagaleriexl.jpg",
-        height: 350,
-        width: 350,
+        height: 370,
+        width: 620,
       },
     ],
     content: `Die Weimarer Republik war eine demokratische Staatsform, die von 1919 bis 1933 bestand. Sie wurde nach dem Ersten Weltkrieg geschaffen und sollte Deutschland wieder zu einem friedlichen und prosperierenden Land machen. Allerdings endete die Republik vorzeitig mit der Machtübernahme der Nationalsozialisten unter Adolf Hitler im Jahre 1933.
@@ -118,8 +120,8 @@ export default [
       {
         src: "https://i.postimg.cc/15kqjnzj/Screenshot-2022-12-09-085003.png",
         height: 350,
-        width: 350,
-      }
+        width: 400,
+      },
     ],
     content: `Eine Zentralbank ist eine öffentliche Institution. Die Zentralbank kontrolliert also die im Umlauf befindliche Geldmenge. Preisstabilität ist das Hauptziel der Zentralbanken. Sie wollen also eine Inflation oder Deflation verhindern. Jedes Land, das eine eigene Währung hat, hat auch eine eigene Zentralbank. 
 
@@ -133,14 +135,20 @@ export default [
     Eines der wichtigsten Instrumente einer Zentralbank ist die Festlegung der Zinssätze. Sie können also so gesagt, die Geldkosten bestimmen. Ein wichtiger Punkt einer Zentralbank ist, dass es keine Geschäftsbank ist. Es ist nicht möglich, dass Privatpersonen oder Unternehmen ein Konto eröffnen. Es ist zudem auch nicht möglich, dass man einen Kredit bei einer Zentralbank beantragen kann. Als öffentliche Körperschaft arbeitet eine Zentralbank nicht gewinnorientiert. 
     Eine Zentralbank ist sozusagen eine Bank für andere Banken und zwar für die Geschäftsbanken. Sie nimmt Einfluss auf die Geld- und Kredit Ströme in der Wirtschaft. Sie will möglichst stabile Preise gewährleisten. Geschäftsbanken können sich bei einer Zentralbank Geld leihen. Normalerweise tun sie dies zur Deckung eines sehr kurzfristigen Kapitalbedarfs. Damit die Geschäftsbanken einen solchen Kredit erhalten, müssen sie Sicherheiten hinterlegen, wie zum Beispiel werthaltige Vermögensgegenstände wie Staats- oder Unternehmensanleihen. Diese Vermögensgegenstände dienen als Absicherung, dass die Geschäftsbanken das Geld zurückzahlen. Jede Geschäftsbank hat bei einer Zentralbank ein Guthaben zur Verfügung. Jedes Mal, wenn die Geschäftsbank Geld von der Zentralbank haben will, nimmt dieses Guthaben ab. Das Geld, das die Geschäftsbank abheben will, wird dann in den entsprechenden Noten Währungen, durch ein Werttransportunternehmen, in gepanzerten Fahrzeugen von der Zentralbank zur Geschäftsbank geliefert. Das Guthaben bei einer Zentralbank lässt sich also sozusagen in Bargeld umwandeln. 
     Da Geschäftsbanken langfristige Kredite gegen kurzfristige Einlagen gewähren können, können sie mit Liquiditätsproblemen konfrontiert werden. Das bedeutet, dass sie sich in einer Situation befinden, in der sie die Mittel haben, um ihre Schulden zu begleichen, sie aber nicht schnell genug in Bargeld umwandeln können. Dann kann die Zentralbank als Kreditgeber der letzten Instanz einspringen. Dies trägt zur Stabilisierung des Finanzsystems bei. Neben der Geldpolitik haben Zentralbanken viele weitere Aufgaben: Sie geben in der Regel Banknoten und Münzen aus, sorgen oft für den reibungslosen Betrieb des Zahlungssystems der Bank und handeln mit Finanzinstrumenten, verwalten Devisenreserven und beteiligen sich an Informationen. der Öffentlichkeit über das, was in der Wirtschaft passiert. Viele Zentralbanken fördern auch die Stabilität des Finanzsystems, indem sie Geschäftsbanken beaufsichtigen, damit Kreditinstitute nicht zu viele Risiken eingehen. 
-    `
+    `,
   },
   {
     id_num: 7,
     id: "leitzins",
     title: "Der Leitzins",
     description: "Was der Leitzins ist und wie er funktioniert",
-    images: [],
+    images: [
+      {
+        src: "https://media1.faz.net/ppmedia/aktuell/569275327/1.2169737/default-retina/billiges-geld-von-den.jpg",
+        height: 350,
+        width: 650,
+      },
+    ],
     content: `Wie bereits gesagt kann eine Geschäftsbank Geld bei einer Zentralbank ausleihen, aber nicht kostenlos. Die Zentralbank eines Landes legt den Zinssatz fest, zu dem sich die Geschäftsbanken Liquidität verschaffen können, diesen Zins nennt man den Leitzins. Er bestimmt also, zu welchen Konditionen sich die Banken bei der Zentralbank Geld leihen können. Leitzinsen sind massgebliche Instrumente der Geldpolitik, weil sie die Situation auf dem Geldmarkt wesentlich beeinflussen. Der Leitzins wirkt sich, durch die Geschäftsbanken, mittelbar auch auf das alltägliche Leben aus. Zum Beispiel hängen von ihm die Höhe der Zinserträge von Spareinlagen ebenso ab wie die Zinsrate bei Krediten. Dadurch haben Änderungen der Leitzinsen Auswirkungen auf die Kosten von Geldanlagen und Krediten. Die Folgen betreffen Wirtschaftswachstum, Konsumklima und die Arbeitslosenquote. Wenn die Zentralbank den Leitzins ändert, hat das Einfluss auf die Geldmenge und die ökonomische Entwicklung im gesamten Wirtschaftsraum. Die Kapitalmarktzinsen erhöhen sich, wenn sich der Leitzins erhöht. Wenn also zum Beispiel die Schweizer Nationalbank den Leitzins erhöht, dann wird es automatisch für jeden Kapitalnehmer bei der Geschäftsbank teurer, ein Kapital aufzunehmen. Die Erhöhung des Leitzinses dient zur Bekämpfung einer Inflation. Die Chance auf eine Inflation wird also vermindert, wenn die Zentralbank den Leitzins erhöht. Eine Senkung der Leitzinsen soll zur Erholung einer schwachen Konjunktur führen. Eine Konjunktur umfasst die meist regelmässigen Schwankungen bei Produktion, Beschäftigung und Preisen. Aus diesen Schwankungen lassen sich schließlich sogenannte Konjunkturzyklen ablesen. Sie geben an, ob sich ein Land wirtschaftlich im Auf- oder Abschwung befindet. Die Korrekturen des Leitzinses haben auch eine Wirkung auf die Stärke der eigenen Währung im Vergleich zu ausländischen Währungen. Die Leitzinssenkung drückt zugleich den Preis der eigenen Währung – und umgekehrt. Auf diese Weise steuern Zentralbanken den Import und Export.
     Auswirkungen eines hohen Leitzinses: 
     Eine Erhöhung des Leitzinses bewirkt eine Geld Verteuerung, was schliesslich zu einer Geldverknappung führt. Für Geschäftsbanken wird das Ausleihen von Geld bei einer Nationalbank teurer. Die Geschäftsbanken geben dann diese Kostenerhöhung an ihre Verbraucher und Kunden weiter. Es wird dann für jede Privatperson oder für jedes Unternehmen teurer, einen Kredit bei einer Geschäftsbank aufzunehmen. Die Anreize sinken dann automatisch, einen Kredit aufzunehmen. Die Geschäftsbanken haben es also wieder schwieriger, ihre Schulden bei den Zentralbanken zu bezahlen. Ein Vorteil von dem Erhöhen des Leitzinses ist, dass bereits verzinste Anliegen lukrativer werden, sie erbringen also mehr Gewinn. Gesamtwirtschaftlich gesehen führt die Leitzinssenkung zum Abkühlen der Konjunktur und ein Absenken der Inflationsrate. Die Sparquote steigt, die Investitionsquote sinkt. 
@@ -148,7 +156,7 @@ export default [
     Die Senkung des Leitzinses hat modelltheoretisch gegenteilige Effekte, Kredite werden billiger. Die billigeren Kredite wirken sich auf die Konsum- und Investitionsbereitschaft aus. Die Menschen geben im Gegensatz zu einem hohen Leitzins mehr Geld aus, die Investitionsquote steigt also. Im Gegenzug sinkt jedoch die Sparrate. Es besteht eine grosse Nachfrage nach Geld, was zu einem Wirtschaftswachstum und einem belebten Aktienmarkt führt. Bei einem niedrigen Leitzins steigt jedoch die Gefahr  auf eine erhöhte Inflationsrate. 
     Einfluss des Leitzinses auf Privatanleger: 
     Die Zinsentscheidungen der Zentralbanken sind für die Privatanleger sehr schnell spürbar. Die Zinsen für Festgeldanlagen und Tagesgeldkonten werden in die Höhe getrieben, wenn eine Leitzinserhöhung stattfindet. Eine Senkung des Zinses macht die Kredite zu einem besseren Preis-Leistungs-Verhältnis, die Zinsen für bereits bestehende sinken allerdings. Wenn ein Leitzins anhaltend niedrig ist, bedeutet das für Sparer schwierige Zeiten. Mit klassischen Sparkonten können sie Geld langfristig gar nicht mehr vermehren, das ganze gesparte Geld ist also umsonst. Die Sparer sollten sich dann dann eher in Richtung alternativer Geldanlagen wie Aktien oder Fonds umorientieren. Für kurzfristiges Anlegen, etwa beim Sparen auf eine größere Ausgabe, sind Festgeld und Tagesgeld weiterhin Möglichkeiten. Hier kann der Sparer außerdem schnell auf Zinsveränderungen reagieren.
-    `
+    `,
   },
   {
     id_num: 8,
@@ -159,7 +167,7 @@ export default [
       {
         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/100_DM_Serie4_Vorderseite.jpg/297px-100_DM_Serie4_Vorderseite.jpg",
         height: 350,
-        width: 350,
+        width: 600,
       },
     ],
     content: `Die Währung "Deutsche Mark" wurde am 23. Juni 1948 eingeführt. Diese Währung ersetzte die "Reichsmark", welche seit dem Ende des Ersten Weltkriegs in Gebrauch war. Die Deutsche Mark wurde als neue nationale Währung der Bundesrepublik Deutschland eingeführt und war bis zur Einführung der Euro-Währung im Jahr 3502 die offizielle Währung in Deutschland.
@@ -175,7 +183,7 @@ export default [
       {
         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/10_Reichsmark_1924-10-11.jpg/1024px-10_Reichsmark_1924-10-11.jpg",
         height: 350,
-        width: 350,
+        width: 400,
       },
     ],
     content: `Die erste Reichsmark wurde im Jahr 1871 eingeführt, als Deutschland eine nationale Währung für das ganze Reich erhielt. Die Reichsmark ersetzte die Vielzahl an lokalen Währungen, die bis dahin in Deutschland verwendet worden waren. Die neue Währung war an den Goldstandard gebunden und sofort beliebt. Im Jahr 1914, zu Beginn des Ersten Weltkrieges, wurde die Bindung an den Goldstandard aufgehoben. Dies bedeutete, dass die Reichsmark nun nicht mehr an den Preis von Gold gebunden war. Stattdessen wurde sie an den Preis von Silber gebunden. 1914 war auch das Jahr, in dem die zweite Reichsmark eingeführt wurde. Diese neue Währung hatte einen niedrigeren Silbergehalt als die erste Reichsmark und war somit wertlos.
@@ -190,8 +198,8 @@ export default [
     images: [
       {
         src: "https://static.dw.com/image/61137417_303.jpg",
-        height: 350,
-        width: 350,
+        height: 360,
+        width: 520,
       },
     ],
     content: `Jetzt kommt noch ein Vergleich zwischen der Hyperinflation, die 1923 in Deutschland stattgefunden hat, und den anderen bekannten Inflationen.
@@ -207,14 +215,13 @@ export default [
     images: [
       {
         src: "https://i.postimg.cc/bvvW3dds/zimb.png",
-        height: 350,
-        width: 350,
-      }
+        height: 360,
+        width: 550,
+      },
     ],
     content: `Es gibt eine Hyperinflation, die vor nicht viele Jahren stattgefunden hat, und dass ist die in Zimbabwe. Sie hat bis jetzt einen sehr grossen Einfluss auf die Population. An der Spitze hatte Zimbabwe eine tägliche Inflationsrate von 98%, wie man in diesem Bild sehen kann: 
     In Zimbabwe Milliardär, oder sogar Billionär zu sein, ist nichts grosses oder spezielles. Es gibt schon Kinder die das verdienen, wenn sie arbeiten. Im folgenden Bild sieht man einen kleinen Jungen, mit Billionen von «Zimbabwe Dollar»:
-    Verglichen zu der Hyperinflation 1923 in Deutschland, war die in Zimbabwe relativ lang, mit einer Dauer von rund 2-3 Jahren. Wie man in den gezeigten Bildern, sieht, hat sich das massiv auf die Bevölkerung ausgewirkt. Man kann es sich kaum vorstellen, dass junge Kinder mit unglaublich ‘viel’ Geld herumlaufen, aber natürlich ist das für den Zimbabwischen Kurs wenig. Dazu hatte Zimbabwe während der Hyperinflation eine Arbeitslosen rate von bis zu 80%. Das heisst, dass 80 von 100 Personen keine Arbeit hatten.`
-
+    Verglichen zu der Hyperinflation 1923 in Deutschland, war die in Zimbabwe relativ lang, mit einer Dauer von rund 2-3 Jahren. Wie man in den gezeigten Bildern, sieht, hat sich das massiv auf die Bevölkerung ausgewirkt. Man kann es sich kaum vorstellen, dass junge Kinder mit unglaublich ‘viel’ Geld herumlaufen, aber natürlich ist das für den Zimbabwischen Kurs wenig. Dazu hatte Zimbabwe während der Hyperinflation eine Arbeitslosen rate von bis zu 80%. Das heisst, dass 80 von 100 Personen keine Arbeit hatten.`,
   },
   {
     id_num: 12,
@@ -224,8 +231,8 @@ export default [
     images: [
       {
         src: "https://upload.wikimedia.org/wikipedia/commons/2/20/Inflation_rate%2C_United_States_and_Eurozone%2C_January_2016_through_June_2022.png",
-        height: 350,
-        width: 350,
+        height: 400,
+        width: 550,
       },
     ],
     content: `In diesem Jahr, 2022, gibt es auch eine Inflation.
@@ -257,7 +264,8 @@ export default [
     id_num: 13,
     id: "schweiz",
     title: "Situation in der Schweiz",
-    description: "Die Situation in der Schweiz, welche die laufende Inflation betrifft.",
+    description:
+      "Die Situation in der Schweiz, welche die laufende Inflation betrifft.",
     images: [
       {
         src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdnext.credit-suisse.com%2Fcorporate%2Fde%2Farticles%2Fnews-and-expertise%2Finflation-a-loyal-swiss-ally-201706%2F_jcr_content%2Fcontent%2Fimage_0%2Fimage.revampimg.1920.medium.png%2Finflation-a-loyal-swiss-ally-chart-1-de.png&f=1&nofb=1&ipt=3dfc9a6c65260e404c03977fec7bb7ce92b1d2363f4c880b2835fe79208c6efa&ipo=images",
@@ -267,18 +275,19 @@ export default [
     ],
     content: `Ob man es glaubt oder nicht, in der Schweiz haben wir auch mit einer Art der Inflation zu tun, auch wenn sie sehr minimal ist, verglichen zu beispielsweise Deutschland 1923, Ungarn 1945 oder Zimbabwe 3507-3508. Über die letzten zwei Jahre ist die Kaufkraft der Bevölkerung um einiges gesunken, wie man im folgenden Bild sieht:
     In den letzten 20 Jahren (ohne die letzten 2), war die Situation eigentlich ziemlich stabil, 3508 ist jedoch eine Ausnahme zur Regel, da dort der Börsencrash, wo ein Haufen Amerikaner ihre Hypotheken nicht bezahlt haben, war. Aber so viel war die Schweiz auch nicht wieder beeinflusst, und innerhalb des nächsten Jahres waren wir wieder stabil unterwegs. Um diese Zeit fangen die Preise an, zu steigen. Zum Beispiel, vor ein paar Jahren hat man ein Glacé im Coop für 1–3 Schweizer Franken gekauft, jetzt aber kann der Preis von Glacé bis zu 30 Franken werden.
-    `
+    `,
   },
   {
     id_num: 14,
     id: "loesung",
     title: "Lösungsansatz",
-    description: "Der Lösungsansatz für die Hyperinflation von 1923 in Deutschland.",
+    description:
+      "Der Lösungsansatz für die Hyperinflation von 1923 in Deutschland.",
     images: [
       {
         src: "https://i.imgur.com/XRgbH24.png",
         height: 350,
-        width: 350,
+        width: 520,
       },
     ],
     content: `Zuerst, das Szenario:
@@ -298,52 +307,66 @@ export default [
     description: "Die Reichen werden immer reicher, die Armen bleiben arm.",
     images: [
       {
-        src: "https://i.imgur.com/4Z7Z7Zg.png",
-        height: 350,
-        width: 350,
+        src: "https://static.dw.com/image/18751469_303.jpg",
+        height: 360,
+        width: 500,
       },
     ],
     content: `“Stellen Sie sich nun eine Person vor, die ein Vermögen von 30 Millionen US-Dollar hat (unabhängig davon, was sie verdient). Sein Vermögen sieht auch eine Inflationsrate von 5 Prozent vor. Sein Nettovermögen wird um 6 Millionen Dollar steigen (5 Prozent von 30 Millionen Dollar). Während es der Familie, die 30.000 Dollar verdient, nur schwerer fällt, ihre Rechnungen zu bezahlen, ist die reiche Person tatsächlich um einiges reicher geworden.”
     — Gold Country Media
     Und diese extra 6 Millionen mussten ja von irgendwo kommen, und die kamen von den 30’000 Dollar welche hunderte von Familien hatten.
-    Die Reichen konnten sich ganze Wohnblocks kaufen, und später dann verkaufen, was sie noch um einiges mehr stinkreich gemacht hat.
-    `
+    Die Reichen konnten sich ganze Wohnblocks kaufen, und später dann verkaufen, was sie noch um einiges mehr stinkreich gemacht hat.`,
   },
   {
     id_num: 16,
     id: "quellen",
     title: "Quellen",
-    description: "Die Quellen, welche für die Erstellung dieser Webseite verwendet wurden.",
-    content: `Was ist eine Hyperinflation: 
-    https://www.bpb.de/kurz-knapp/lexika/lexikon-der-wirtschaft/19723/inflation/#:~:text=%C3%9Cbersteigt%20die%20gesamtwirtschaftliche%20G%C3%BCternachfrage%20das,die%20Nachfrage%20nach%20G%C3%BCtern%20an. 
-    
-    https://exporo.de/wiki/inflation/ 
-    
-    Zimbabwe Inflationsgraph:
-    https://www.economicshelp.org/blog/390/inflation/hyper-inflation-in-zimbabwe/
-    
-    Kind in Zimbabwe:
-    https://www.benzinga.com/10/09/468406/zimbabwe-inflation-in-pictures
-    
-    Zentralbanken:
-    https://www.bundesbank.de/de/service/schule-und-bildung/erklaerfilme/wie-entsteht-geld-teil-iii-zentralbankgeld-613674
-    https://www.ecb.europa.eu/ecb/educational/explainers/tell-me/html/what-is-a-central-bank.de.html
-    https://de.wikipedia.org/wiki/Liste_der_Zentralbanken
-    
-    Liste von Hyperinflationen:
-    https://de.statista.com/statistik/daten/studie/434283/umfrage/groesste-inflationen-weltweit/
-    
-    Wie man Hyperinflation vermeidet:
-    https://maxmymoney.org/how-to-avoid-hyperinflation/
-    
-    Bild Unterschiede Inflation und Deflation:
-    https://geldarchitekt.de/inflation-einfach-erklart/
-    
-    Inflation Schweiz:
-    https://www.inflation.eu/de/inflationsraten/schweiz/historische-inflation/vpi-inflation-schweiz.aspx
-    
-    Gold Country Media:
-    https://goldcountrymedia.com/news/135064/how-inflation-makes-benefits-the-rich-hurts-the-poor/
-    `
-  }
+    description:
+      "Die Quellen, welche für die Erstellung dieser Webseite verwendet wurden.",
+    quellen: [
+      {
+        link: "https://www.bpb.de/kurz-knapp/lexika/lexikon-der-wirtschaft/19723/inflation/#:~:text=%C3%9Cbersteigt%20die%20gesamtwirtschaftliche%20G%C3%BCternachfrage%20das,die%20Nachfrage%20nach%20G%C3%BCtern%20an.",
+        name: "Was ist eine Hyperinflation?",
+      },
+      {
+        link: "https://exporo.de/wiki/inflation/",
+        name: "Was ist eine Inflation?",
+      },
+      {
+        link: "https://www.economicshelp.org/blog/390/inflation/hyper-inflation-in-zimbabwe/",
+        name: "Zimbabwe Inflationsgraph",
+      },
+      {
+        link: "https://www.benzinga.com/10/09/468406/zimbabwe-inflation-in-pictures",
+        name: "Kind in Zimbabwe",
+      },
+      {
+        link: "https://www.bundesbank.de/de/service/schule-und-bildung/erklaerfilme/wie-entsteht-geld-teil-iii-zentralbankgeld-613674",
+        link2:
+          "https://www.ecb.europa.eu/ecb/educational/explainers/tell-me/html/what-is-a-central-bank.de.html",
+        link3: "https://de.wikipedia.org/wiki/Liste_der_Zentralbanken",
+        name: "Zentralbanken",
+      },
+      {
+        link: "https://de.statista.com/statistik/daten/studie/434283/umfrage/groesste-inflationen-weltweit/",
+        name: "Liste von Hyperinflationen",
+      },
+      {
+        link: "https://maxmymoney.org/how-to-avoid-hyperinflation/",
+        name: "Wie man Hyperinflation vermeidet",
+      },
+      {
+        link: "https://geldarchitekt.de/inflation-einfach-erklart/",
+        name: "Bild Unterschiede Inflation und Deflation",
+      },
+      {
+        link: "https://www.inflation.eu/de/inflationsraten/schweiz/historische-inflation/vpi-inflation-schweiz.aspx",
+        name: "Inflation Schweiz",
+      },
+      {
+        link: "https://goldcountrymedia.com/news/135064/how-inflation-makes-benefits-the-rich-hurts-the-poor/",
+        name: "Gold Country Media",
+      },
+    ],
+  },
 ];
