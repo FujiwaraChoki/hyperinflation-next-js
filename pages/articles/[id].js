@@ -125,6 +125,7 @@ export default function Article() {
             <br />
           </div>
         </main>
+        <NextAndBack next={id_num} back={id_num}></NextAndBack>
       </div>
     );
   }
