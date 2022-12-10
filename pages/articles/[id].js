@@ -149,7 +149,6 @@ export default function Article() {
         <br />
         <div className={styles.contentWrapper}>
           <p className={styles.articleText}>
-            {/* If first Letter is a quotation mark, don't make a span */}
             {firstLetter === "“" ? (
               <span>{firstLetter}</span>
             ) : (

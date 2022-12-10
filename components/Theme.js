@@ -37,18 +37,20 @@ const Theme = () => {
       >
         <span className={"fas fa-sun"}></span>
       </button>
-      <button
-        title="GitHub Repository"
-        className={styles.themeButton}
-        onClick={() => {
-          window.open(
-            "https://github.com/FujiwaraChoki/hyperinflation-next-js",
-            "_blank"
-          );
-        }}
-      >
-        <span className={"fab fa-github"}></span>
-      </button>
+      <div>
+        <button
+          title="GitHub Repository"
+          className={styles.themeButton}
+          onClick={() => {
+            window.open(
+              "https://github.com/FujiwaraChoki/hyperinflation-next-js",
+              "_blank"
+            );
+          }}
+        >
+          <span className={"fab fa-github"}></span>
+        </button>
+      </div>
       <Image
         title="Ben Brändle"
         src={"https://avatars.githubusercontent.com/u/89217401?v=4"}

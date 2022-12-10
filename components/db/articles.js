@@ -26,8 +26,8 @@ export default [
   },
   {
     id_num: 2,
-    id: "die-hyperinflation-von-1923",
-    title: "Die Hyperinflation von 1923",
+    id: "die-hyperinflation-1923",
+    title: "Die Hyperinflation 1923",
     description:
       "Das eigentliche Thema dieser Webseite informationsreich zusammengefasst.",
     images: [

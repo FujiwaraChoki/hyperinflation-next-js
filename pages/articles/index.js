@@ -49,7 +49,6 @@ export default function Home() {
         return styles.article15;
       case 16:
         return styles.article16;
-        
     }
   }
 
@@ -70,31 +69,30 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Artikel</h1>
         <div className={styles.pagecontainer}>
-        <div className={styles.listcontainer}>
-          <h2>Legende</h2>
-          <ul className={styles.list}>
-            <li className={styles.erklärung}>Erklärung</li>
-            <li className={styles.entstehung}>Entstehung</li>   
-            <li className={styles.währung}>Währungspolitik</li>
-            <li className={styles.lander}>Ländervergleich</li>
-            <li className={styles.bezug}>Aktualitätsbezug</li>
-            <li className={styles.betroffen}>Wohlstandentwicklung</li>
-            <li className={styles.quellen}>Quellenverzeichnis</li>
-          </ul>
-        </div>
-        <div className={styles.grid}>
-          {articles.map((article) => (
-            <Link
-              href={`/articles/${article["id"]}`}
-              key={article["id_num"]}
-              className={`${styles.card} ${getClass(article)}`}
-            >
-              <h3>{article["title"]}</h3>
-              <p>{article["description"]}</p>
-
-            </Link>
-          ))}
-        </div>
+          <div className={styles.listcontainer}>
+            <h2>Legende</h2>
+            <ul className={styles.list}>
+              <li className={styles.erklärung}>Erklärung</li>
+              <li className={styles.entstehung}>Entstehung</li>
+              <li className={styles.währung}>Währungspolitik</li>
+              <li className={styles.lander}>Ländervergleich</li>
+              <li className={styles.bezug}>Aktualitätsbezug</li>
+              <li className={styles.betroffen}>Wohlstandentwicklung</li>
+              <li className={styles.quellen}>Quellenverzeichnis</li>
+            </ul>
+          </div>
+          <div className={styles.grid}>
+            {articles.map((article) => (
+              <Link
+                href={`/articles/${article["id"]}`}
+                key={article["id_num"]}
+                className={`${styles.card} ${getClass(article)}`}
+              >
+                <h3 className={styles.articleTitle}>{article["title"]}</h3>
+                <p>{article["description"]}</p>
+              </Link>
+            ))}
+          </div>
         </div>
       </main>
     </div>
