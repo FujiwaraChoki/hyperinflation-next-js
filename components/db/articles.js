@@ -29,7 +29,7 @@ export default [
     id: "die-hyperinflation-1923",
     title: "Die Hyperinflation 1923",
     description:
-      "Das eigentliche Thema dieser Webseite informationsreich zusammengefasst.",
+      "Die Hyperinflation 1923 in Deutschland. Was war passiert?",
     images: [
       {
         src: "https://i.imgur.com/Oo7bf9g.jpeg",

@@ -85,6 +85,7 @@ export default function Quiz() {
 
   // Check if score is 5, if yes, show confetti
   useEffect(() => {
+    document.body.style.overflowY = "scroll";
     if (score === 5) {
       party.confetti(document.querySelector("body"), {
         count: party.variation.range(100, 200),
