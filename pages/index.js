@@ -43,6 +43,7 @@ export default function Home() {
       wrapperElement.style.backgroundColor = "#000000";
       wrapperElement.style.color = "#ffffff";
       wrapperElement.style.padding = "1rem";
+      wrapperElement.style.position = "absolute";
     });
 
     description.addEventListener("mouseout", () => {
@@ -50,6 +51,7 @@ export default function Home() {
       wrapperElement.style.backgroundColor = "#ffffff";
       wrapperElement.style.color = "#000000";
       wrapperElement.style.padding = "0rem";
+      wrapperElement.style.position = "absolute";
     });
   });
 
